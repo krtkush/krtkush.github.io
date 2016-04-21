@@ -15,6 +15,7 @@ links:
   - name:         GitHub
     url:          http://github.com/krtkush
     external:     true
+
 highlighter:      rouge
 permalink:        pretty
 markdown:         kramdown
