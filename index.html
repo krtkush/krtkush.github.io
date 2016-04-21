@@ -1,18 +1,12 @@
 ---
-layout: page
-title: Blog
-subtitle: Thoughts, Ideas and Musings
-sitemap:
-  priority: 0.9
+layout: index
 ---
 
-<ul class="list-posts">
-    {% for post in site.posts %}
-        <li class="post-teaser">
-            <a href="{{ post.url | prepend: site.baseurl }}">
-                <span class="post-teaser__title">{{ post.title }}</span>
-                <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
-            </a>
-        </li>
-    {% endfor %}
+<ul class="posts">
+  {% for post in site.posts %}
+  <li>
+    <small class="datetime muted" data-time="{{ post.date }}">{{ post.date | date_to_string }} </small>
+    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
 </ul>
