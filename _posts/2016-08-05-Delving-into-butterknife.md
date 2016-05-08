@@ -1,38 +1,10 @@
 ---
 layout: post
-title: Placeholder post
-date: 2013-05-06 15:27:31
+title: Delving into Butterknife
+date: 2016-08-05 18:17:55
 ---
 
-I am a placeholder post. Lorem ipsum dolor sit amet, consectetuer adipi/Users/kartikeykushwaha/Code/Blog_local/scribble/_posts/sample-2013-05-06-scribble-the-jekyll-theme.mdscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Butterknife comes up right on top of my 'Basic Android libraries to use' list whenever I'm setting up a new Android project. It is fairy simple to use and straight forward to implement. It helps me get rid of lot of biolerplate code and makes my code look pretty and easy to understand. I highly reccomend it.
 
-> Boom. I am a blockquote.
-> 
-> Say something really clever here.
+I wanted to share some not so straight forward stuff I learnt about Butterknife while working with it.
 
-1. List with code
-
-```
-not highlighted
-multi line
-```
-
-2. List with code
-
-{% highlight javascript %}
-var dom = document.getElementById('boom')
-console.log(dom);{% endhighlight %}
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-1. One
-2. Two
-3. Three
-
-{% highlight ruby %}
-def whaaa
-puts "I have a friend called Bobobmob."
-end
-{% endhighlight %}
