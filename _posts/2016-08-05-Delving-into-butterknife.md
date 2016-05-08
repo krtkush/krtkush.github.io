@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Delving into Butterknife (#1)
+title: Delving into Butterknife
 date: 2016-08-05 18:17:55
 ---
 
