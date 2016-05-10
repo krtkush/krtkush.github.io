@@ -11,24 +11,24 @@ I wanted to share some not so straight forward stuff I learnt about Butterknife 
 
 Butterknife provides a very nifty way to apply a common listener to multiple views by bundling them together. I found it a bit tricky to leverage this feature in case of multiple spinners in the same activity. The code is pretty straight forward but it took me time to reliaze that `((View) view.getParent()).getId()` does the job of getting ID of the spinner that has been selected and not `view.getId()`.
 
-    
-    @OnItemSelected({R.id.spinner1, R.id.spinner2})
-    public void cancellationPolicySelected(int position, View view) {
 
-        switch (((View) view.getParent()).getId()) {
+@OnItemSelected({R.id.spinner1, R.id.spinner2})
+public void cancellationPolicySelected(int position, View view) {
 
-            case R.id.spinner1:
-                Log.i("Position selected", 
-                String.valueOf(position));
-            break;
+switch (((View) view.getParent()).getId()) {
 
-            case R.id.spinner2:
-                Log.i("Position selected", 
-                String.valueOf(position));
-            break;
-        }
-    }
-    
+case R.id.spinner1:
+Log.i("Position selected", 
+String.valueOf(position));
+break;
+
+case R.id.spinner2:
+Log.i("Position selected", 
+String.valueOf(position));
+break;
+}
+}
+
 
 
 **Using Butterknife with Fragments and \<include\> tag**
@@ -37,99 +37,99 @@ Things get a little interesting when you want to access a fragment's parent acti
 
 `getActivity().findViewById(R.id.viewId) ...` usually does the job when not using butterknife. Using `@Bind(R.id.viewId) ...` on the fragment will result in a Nullpointer Exception and your app crashing. The way to use butterknife in such a situation is like this - 
 
-    public class FragmentClass extends Fragment {
+public class FragmentClass extends Fragment {
 
-    /**
-    * This class is needed to access the views of 
-    * the host activity (Specifically for butterknife)
-    */
-    public class HostActivityViews {
+/**
+* This class is needed to access the views of 
+* the host activity (Specifically for butterknife)
+*/
+public class HostActivityViews {
 
-        @Bind(R.id.nextButton) Button nextButton;
+@Bind(R.id.nextButton) Button nextButton;
 
-        @OnClick(R.id.nextButton)
-        public void next() {
-            Log.i("Button tapped", "Next");
-        }
+@OnClick(R.id.nextButton)
+public void next() {
+Log.i("Button tapped", "Next");
+}
 
-        /**
-        * Instance of class that holds views of host activity
-        */
-        private HostActivityViews hostActivityViews;
+/**
+* Instance of class that holds views of host activity
+*/
+private HostActivityViews hostActivityViews;
 
-        @Override
-        public View onCreateView(LayoutInflater inflater, 
-                ViewGroup container, Bundle savedInstanceState) {
+@Override
+public View onCreateView(LayoutInflater inflater, 
+ViewGroup container, Bundle savedInstanceState) {
 
-            ...
+...
 
-            hostActivityViews = new HostActivityViews();
-            //Bind the views of the fragment
-            ButterKnife.bind(this, view);
-            // Bind the views of the parent activity
-            ButterKnife.bind(hostActivityViews, getActivity());
+hostActivityViews = new HostActivityViews();
+//Bind the views of the fragment
+ButterKnife.bind(this, view);
+// Bind the views of the parent activity
+ButterKnife.bind(hostActivityViews, getActivity());
 
-            ...
-        }
+...
+}
 
-        ...
+...
 
-        @Override
-        public void onDestroyView() {
-            super.onDestroyView();
-            ButterKnife.unbind(this);
-            ButterKnife.unbind(hostActivityViews);
-        }
-    }
+@Override
+public void onDestroyView() {
+super.onDestroyView();
+ButterKnife.unbind(this);
+ButterKnife.unbind(hostActivityViews);
+}
+}
 
 
 A similar approach can be applied for cases in which the XML layout uses the \<include\> tag.
 
 XML layout
 
-    <include
-        android:id="@+id/includedLayout"
-        android:layout_alignParentTop="true"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        layout="@layout/common_layout" />
+<include
+android:id="@+id/includedLayout"
+android:layout_alignParentTop="true"
+android:layout_height="wrap_content"
+android:layout_width="match_parent"
+layout="@layout/common_layout" />
 
 Java code - 
 
-    public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
-        @Bind(R.id.includedLayout) View includedLayout;
+@Bind(R.id.includedLayout) View includedLayout;
 
-        /**
-        *  Class to access the toolbar in the 
-        * included layout (Specifically for butterknife)
-        */
-        public class CommonLayout {
-        // Here toolbar is the view that is inside common_layout
-        @Bind(R.id.toolbar) Toolbar toolbar;
-        }
+/**
+*  Class to access the toolbar in the 
+* included layout (Specifically for butterknife)
+*/
+public class CommonLayout {
+// Here toolbar is the view that is inside common_layout
+@Bind(R.id.toolbar) Toolbar toolbar;
+}
 
-        /**
-        * Instance of class that holds views of the included layout
-        */
-        CommonLayout commonLayout;
+/**
+* Instance of class that holds views of the included layout
+*/
+CommonLayout commonLayout;
 
-        @Override
-        public View onCreate(Bundle savedInstanceState) {
-        ...
+@Override
+public View onCreate(Bundle savedInstanceState) {
+...
 
-        commonLayout = new CommonLayout();
+commonLayout = new CommonLayout();
 
-        // Bind the views of the activity
-        ButterKnife.bind(this);
-        // Bind the views of the layout that has been included
-        ButterKnife.bind(commonLayout, includedLayout);
+// Bind the views of the activity
+ButterKnife.bind(this);
+// Bind the views of the layout that has been included
+ButterKnife.bind(commonLayout, includedLayout);
 
-        ...
-        }
+...
+}
 
-    ...
-    }
+...
+}
 
 
 I'm not sure how useful this whole approach is becuase writing so much code reduces the major advantage of Butterknife - the ability to get rid of boilerplate code. `getActivity().findViewById(R.id.viewId) ...` seems to be a more straight forward approach.
