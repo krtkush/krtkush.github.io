@@ -31,6 +31,7 @@ break;
 }
 ```
 
+
 **Using Butterknife with Fragments and \<include\> tag**
 
 Things get a little interesting when you want to access a fragment's parent activity view from the fragment itself.
@@ -82,6 +83,7 @@ ButterKnife.unbind(hostActivityViews);
 }
 ```
 
+
 A similar approach can be applied for cases in which the XML layout uses the \<include\> tag.
 
 ```XML
@@ -94,6 +96,8 @@ layout="@layout/common_layout" />
 
 ...
 ```
+
+
 
 ```Java
 public class MainActivity extends AppCompatActivity {

@@ -16,8 +16,10 @@ sass:
 
 
 # Markdown
+highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-highlighter: rouge
+  auto_ids: true
+  syntax_highlighter: rouge
