@@ -37,7 +37,6 @@ Things get a little interesting when you want to access a fragment's parent acti
 
 `getActivity().findViewById(R.id.viewId) ...` usually does the job when not using butterknife. Using `@Bind(R.id.viewId) ...` on the fragment will result in a Nullpointer Exception and your app crashing. The way to use butterknife in such a situation is like this - 
 
-    ```Java
     public class FragmentClass extends Fragment {
 
     /**
@@ -82,25 +81,21 @@ Things get a little interesting when you want to access a fragment's parent acti
             ButterKnife.unbind(hostActivityViews);
         }
     }
-    ```
 
 
 A similar approach can be applied for cases in which the XML layout uses the \<include\> tag.
 
 XML layout
 
-    ```XML
     <include
         android:id="@+id/includedLayout"
         android:layout_alignParentTop="true"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         layout="@layout/common_layout" />
-    ```
 
 Java code - 
 
-    ```Java
     public class MainActivity extends AppCompatActivity {
 
         @Bind(R.id.includedLayout) View includedLayout;
@@ -135,7 +130,6 @@ Java code -
 
     ...
     }
-```
 
 
 I'm not sure how useful this whole approach is becuase writing so much code reduces the major advantage of Butterknife - the ability to get rid of boilerplate code. `getActivity().findViewById(R.id.viewId) ...` seems to be a more straight forward approach.
