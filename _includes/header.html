@@ -1,4 +1,11 @@
-<header>
-<a id="go-back-home" href="{{ site.url }}"><img src="{{ site.url }}/images/scribble.png" alt="scribble" width="53" height="59"></a>
-<p>{{ site.title }}</p>
-</header>
+
+<div class="header">
+    <h1>{{ site.name }}</h1>
+    <ul>
+        {% for item in site.data.navigation %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
