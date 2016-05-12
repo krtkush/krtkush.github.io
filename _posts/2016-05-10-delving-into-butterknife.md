@@ -89,14 +89,13 @@ Things get a little interesting when you want to access a fragment's parent acti
 A similar approach can be applied for cases in which the XML layout uses the \<include\> tag.
 
 XML layout
-    ```XML
+
     <include
         android:id="@+id/includedLayout"
         android:layout_alignParentTop="true"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         layout="@layout/common_layout" />
-    ```
 
 Java code -
 
