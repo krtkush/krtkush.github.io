@@ -4,4 +4,4 @@ layout: about
 
 Hello!
 
-I'm an Android developer and a design nerd. I love reading, science & arts and am always upto an interesting conversation. You can contact me at kartikey92@gmail.com. 
+My name is Kartikey Kushwaha I'm an Android developer and a design nerd. I love reading, science & arts and am always up for an interesting conversation. I love cats too.
