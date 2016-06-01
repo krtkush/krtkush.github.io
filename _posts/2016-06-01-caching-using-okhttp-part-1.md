@@ -3,7 +3,7 @@ layout: post
 title: Caching using OkHttp and Retrofit (Part 1)
 ---
 
-Retrofit has an excellent feature which lets developers cache responses for future use. Caching is ideally controlled by HTTP headers which are sent by the server in its response. You can read more about HTTP caching over [here](https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html).
+Retrofit has an excellent feature which lets developers cache responses for future use. Caching is ideally controlled by HTTP headers which are sent by the server in its response. You can read more about HTTP caching over [here](https://tools.ietf.org/html/rfc7234).
 
 The above approach to caching is what Retrofit uses and it works pretty well if the right headers are sent by the server. In that case, you just have to define the cache location and everything is pretty much handled by the library.
 
