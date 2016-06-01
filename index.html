@@ -14,3 +14,14 @@ layout: default
         {% endfor %}
     </ul>
 </div>
+
+<div class="portfolio">
+    <h1>Projects:</h1>
+    <ul>
+        {% for projects in site.data.projects %}
+        <li>
+            {{projects.tag}} - <a href="{{ projects.url }}">{{ projects.name }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
