@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Response caching using OkHttp and Retrofit (Part 2)
+title: Response caching using OkHttp (Part 2)
 ---
 
 In the [previous post](https://krtkush.github.io/2016/06/01/caching-using-okhttp-part-1.html) I explained how we can use Retrofit and OkHttp to cache responses for various use cases.
