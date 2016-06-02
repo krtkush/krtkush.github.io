@@ -79,6 +79,8 @@ Adding the interceptors to the OkHttp Client. We add the `ResponseCacheIntercept
                     .build();
     ```
 
+In [part two](https://krtkush.github.io/2016/06/02/caching-using-okhttp-part-2.html) we learn how to selectively apply the caching policy on individual API requests.
+
 **Acknowledgement:**
 
 There are multiple solutions available on the internet and for some people they seem to work. But for me, [this answer](https://stackoverflow.com/questions/23429046/can-retrofit-with-okhttp-use-cache-data-when-offline/36795214#36795214) was what sent me in the correct direction.
