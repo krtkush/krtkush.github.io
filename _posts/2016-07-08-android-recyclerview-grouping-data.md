@@ -28,7 +28,7 @@ Here is an example JSON response that is to be populated as a list.
     }
 
 
-The JSON has to be converted into a list using `key_4` as the grouping parameter i.e. all JSON Objects having `2016-06-21` as their respective `key_4` value need to be put under `2016-06-21` group. and so on.
+The JSON has to be converted into a list using `key_4` as the grouping parameter i.e. all JSON Objects having `2016-06-21` as their respective `key_4` value need to be put under `2016-06-21` group and so on.
 
 **(i) Group data into a HashMap according to the grouping parameter.**
 We create a HashMap whose key is the group label and the value is a POJO for the JSON Objects.
