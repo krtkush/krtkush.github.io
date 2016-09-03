@@ -7,7 +7,7 @@ In the [previous post](https://krtkush.github.io/2016/06/01/caching-using-okhttp
 
 The apparent problem with the linked approach is that *every* API request will have its Cache-Headers modified by the interceptors. There is no way to control API requests individually. To solve this problem I have come with a, dare I say, elegant hack - We add some custom headers while sending the request, whose value the interceptors will check and act accordingly.
 
-Continuing with the interceptors we created in the last post, we'll modify them to check for boolean flag which specifies the developer's choice to use their functionality or not.
+Continuing with the interceptors we created in the last post, we'll modify them to check for boolean flag which specifies the developer's choice to use the caching functionality or not.
 
 **Accepting headers dynamically in the API request**
 
