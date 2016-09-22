@@ -5,12 +5,12 @@ title: Lazy loading ViewPager tabs
 
 In this post I share how I built a ViewPager with dynamic tab addition.
 
-The configuration of a ViewPager in an Android app are often pre-defined; we declare the number of tabs, their respective titles and the fragments they are supposed to load. Such was not the case when I had to implement ViewPager in the Mars Explorer app. I had to make tabs for each [SOL](https://en.wikipedia.org/wiki/Timekeeping_on_Mars). With the current SOL count being 1448 and it only increasing everyday, making so many tabs in one go would be unwise. I concluded lazy loading would be a better approach i.e. add a new tab dynamically when a last few of existing tabs are accessed.
+The configuration of a ViewPager in an Android app are often pre-defined; we declare the number of tabs, their respective titles and the fragments they are supposed to load. Such was not the case when I had to implement ViewPager in the Mars Explorer app. I had to make tabs for each [SOL](https://en.wikipedia.org/wiki/Timekeeping_on_Mars). With the current SOL count being 1448 and it only increasing everyday, making so many tabs in one go would be unwise. I concluded lazy loading would be a better approach i.e. add more new tabs dynamically when the last few of existing tabs are accessed.
 
 **Requirements:**
 
 1. Load 10 tabs by default.
-2. Each tab is supposed to represent an SOL with the latest SOL in the right most tab.
+2. Each tab is supposed to represent an SOL with the latest SOL in the left most tab.
 3. When the user reaches the second last or the last tab, add one more tab to the ViewPager.
 
 <br>
