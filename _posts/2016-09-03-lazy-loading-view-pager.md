@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Lazy loading ViewPager tabs
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Response caching using OkHttp (Part 1)
 ---
 
