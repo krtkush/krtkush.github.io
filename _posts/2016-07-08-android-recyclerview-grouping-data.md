@@ -108,7 +108,7 @@ Now we make an abstract class called `ListItem` that will be inherited by two cl
         }
       }
 
-  Date Item -
+  DateItem -
 
     public class DateItem extends ListItem {
 
