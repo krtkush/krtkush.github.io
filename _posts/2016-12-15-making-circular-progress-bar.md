@@ -8,7 +8,7 @@ I'm planning to write an open source library for a countdown/ up timer with circ
 progress animation around it. Before I do that I have decided to write a post about
 the basics of making a progress animation directly associated with time give.
 
-<img src=https://github.com/krtkush/krtkush.github.io/blob/master/_posts/images/circular_progress_bar_screenshot.png" width="200" height="350" />
+<img src="https://github.com/krtkush/krtkush.github.io/blob/master/_posts/images/circular_progress_bar_screenshot.png" width="200" height="350" />
 
 We'll need a custom view class and an animation class that'll control the animation.
 
@@ -53,7 +53,8 @@ We'll need a custom view class and an animation class that'll control the animat
             // Green Arc (Arc with 360 angle) - This circle will be created as
             // time progresses.
             paint.setColor(Color.parseColor("#00ba8c"));
-            canvas.drawArc(rectF, startingPointInDegrees, degreesUpTillPreFill, false, paint);
+            canvas.drawArc(rectF, startingPointInDegrees, degreesUpTillPreFill,
+               false, paint);
         }
 
         public float getDegreesUpTillPreFill() {
