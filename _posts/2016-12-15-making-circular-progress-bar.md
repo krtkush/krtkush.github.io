@@ -8,7 +8,7 @@ I'm planning to write an open source library for a countdown/ up timer with circ
 progress animation around it. Before I do that I have decided to write a post about
 the basics of making a progress animation directly associated with time give.
 
-<img src="https://github.com/krtkush/krtkush.github.io/blob/master/_posts/images/circular_progress_bar_screenshot.png" width="200" height="350" />
+<img src="https://raw.githubusercontent.com/krtkush/krtkush.github.io/master/_posts/images/circular_progress_bar_screenshot.png" width="200" height="350" />
 
 We'll need a custom view class and an animation class that'll control the animation.
 
@@ -119,6 +119,6 @@ We'll need a custom view class and an animation class that'll control the animat
         centerTimerCircle.setDegreesUpTillPreFill(0);
         TimerCircleAngleAnimation animation =
             new TimerCircleAngleAnimation(centerTimerCircle, 360);
-        // 1 minute in milliseconds.
+        // Timer will run for 1 minute.
         animation.setDuration((60 * 1000));
         centerTimerCircle.startAnimation(animation);
