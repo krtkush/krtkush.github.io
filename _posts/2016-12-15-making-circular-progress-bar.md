@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Custom Linear Circular Progress Bar
+title: Android - Linear Circular Progress Bar
 ---
 
 I'm planning to write an open source library for a countdown/ up timer with circular
@@ -117,7 +117,7 @@ We'll need a custom view class and an animation class that'll control the animat
         TimerCircle centerTimerCircle = (TimerCircle) findViewById(R.id.timerCircle);
 
         centerTimerCircle.setDegreesUpTillPreFill(0);
-        // The arc will be of 360 degrees - a circle. 
+        // The arc will be of 360 degrees - a circle.
         TimerCircleAngleAnimation animation =
             new TimerCircleAngleAnimation(centerTimerCircle, 360);
         // Timer will run for 1 minute.
