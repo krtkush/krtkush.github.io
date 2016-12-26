@@ -1,3 +1,7 @@
 - name: Mars Explorer
   url: https://github.com/krtkush/MarsExplorer
   tag: Android App
+
+- name: Linear Timer
+  url: https://github.com/krtkush/LinearTimer
+  tag: Android Custom View
