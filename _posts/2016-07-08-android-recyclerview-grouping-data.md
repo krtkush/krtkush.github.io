@@ -4,7 +4,7 @@ comments: true
 title: Android RecyclerView - Grouping Data
 ---
 
-**This post was featured in [Android Weekly #238 issue](http://androidweekly.net/issues/issue-238).**
+**This post was featured in [Android Weekly's #238 issue](http://androidweekly.net/issues/issue-238).**
 
 Recently, I was asked to implement recycler view in an interesting way - group data within a list with respect to a specific attribute of the list elements and also show the grouping attribute tag on top of each group. The closest comparison I can make is how WhatsApp groups together chats with respect to dates. In my case I had to group by months. I found the problem pretty interesting and decided to document my implementation.
 
