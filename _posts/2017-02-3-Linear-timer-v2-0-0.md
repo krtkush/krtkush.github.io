@@ -41,13 +41,13 @@ After adding the view, here is how the View is initialized and used -
                 .duration(10 * 1000)
                 .build();
 
-     // Start the timer.
-     findViewById(R.id.startTimer).setOnClickListener(new View.OnClickListener() {
-         @Override
-         public void onClick(View view) {
-            linearTimer.startTimer();
-           }
-     });
+    // Start the timer.
+    findViewById(R.id.startTimer).setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+          linearTimer.startTimer();
+        }
+    });
 
     // Restart the timer.
     findViewById(R.id.restartTimer).setOnClickListener(new View.OnClickListener() {
@@ -103,6 +103,7 @@ progressDirection() can have either of the following two parameters -
 
 1. LinearTimer.COUNTER_CLOCK_WISE_PROGRESSION
 2. LinearTimer.CLOCK_WISE_PROGRESSION
+
 
 The default direction is set as clockwise.
 
