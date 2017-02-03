@@ -65,6 +65,7 @@ The `duration()` method is overloaded for the following two cases -
 1. The user provides the total duration and the timer runs for that given duration.
 2. The user provides the total duration and the elapsed time duration. In this case, LinearTimer will automatically calculate the pre-fill angle according to the time elapsed. Also, any value passed into `preFillAngle()` method will be ignored.
 
+
 `new LinearTimer.Builder().duration(10 * 1000).build();` or `new LinearTimer.Builder().duration(10 * 1000, 5 * 1000).build();`
 
 ## Timer Listener
@@ -134,5 +135,6 @@ The user can choose to receive the time elapsed since the timer has started or t
 
 1. LinearTimer.COUNT_UP_TIMER
 2. LinearTimer.COUNT_DOWN_TIMER
+
 
 `updateInterval` is the duration after which `timerTick()` should get an update. This value should always be > 0.
