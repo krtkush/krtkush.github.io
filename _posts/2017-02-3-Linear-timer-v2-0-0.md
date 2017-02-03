@@ -8,7 +8,8 @@ Linear Timer is a custom view for Android that enables circular progress animati
 
 [Find LinearTimer on Github](https://github.com/krtkush/LinearTimer)
 
-## Usage
+##Usage
+
 
 First, you need to add `LinearTimerView` into your XML layout -
 
