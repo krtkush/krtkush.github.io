@@ -6,7 +6,7 @@ title: LinearTimer v2.0.0
 
 Linear Timer is a custom view for Android that enables circular progress animation with respect to given duration.
 
-[Github Link](https://github.com/krtkush/LinearTimer)
+[Find LinearTimer on Github](https://github.com/krtkush/LinearTimer)
 
 ## Usage
 
@@ -59,14 +59,15 @@ After adding the view, here is how the View is initialized and used -
 **Duration**
 
 The `duration()` method is overloaded for the following two cases -
+
 1. The user provides the total duration and the timer runs for that given duration.
 2. The user provides the total duration and the elapsed time duration. In this case, LinearTimer will automatically calculate the pre-fill angle according to the time elapsed. Also, any value passed into `preFillAngle()` method will be ignored.
 
-`.duration(10 * 1000)` or ` .duration(10 * 1000, 5 * 1000)`
+`new LinearTimer.Builder().duration(10 * 1000).build();` or `new LinearTimer.Builder().duration(10 * 1000, 5 * 1000).build();`
 
 **Timer Listener**
 
-A `TimerListener` can be implemented to receive a call backs for various LinearTimer related events.
+A `TimerListener` can be implemented to receive call backs for various LinearTimer related events.
 
 1. animationComplete() - When the progress animation comes to an end.
 2. timerTick(long tickUpdateInMillis) - If the user chooses to receive the time elapsed since the timer has started or the time remaining for the timer to finish.  
@@ -98,6 +99,7 @@ The user can choose to make the progress bar animate in either clockwise or anti
 `...new LinearTimer.Builder().progressDirection(LinearTimer.COUNTER_CLOCK_WISE_PROGRESSION).build();`
 
 progressDirection() can have either of the following two parameters -
+
 1. LinearTimer.COUNTER_CLOCK_WISE_PROGRESSION
 2. LinearTimer.CLOCK_WISE_PROGRESSION
 
@@ -126,6 +128,7 @@ The user can choose to receive the time elapsed since the timer has started or t
 `...new LinearTimer.Builder().getCountUpdate(LinearTimer.COUNT_UP_TIMER, 1000).build();`
 
 `countType` can be of the following two types -
+
 1. LinearTimer.COUNT_UP_TIMER
 2. LinearTimer.COUNT_DOWN_TIMER
 
