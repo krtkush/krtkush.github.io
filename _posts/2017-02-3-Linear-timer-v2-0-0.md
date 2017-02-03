@@ -58,7 +58,7 @@ After adding the view, here is how the View is initialized and used -
           }
     });
 
-**Duration**
+## Duration
 
 The `duration()` method is overloaded for the following two cases -
 
@@ -67,7 +67,7 @@ The `duration()` method is overloaded for the following two cases -
 
 `new LinearTimer.Builder().duration(10 * 1000).build();` or `new LinearTimer.Builder().duration(10 * 1000, 5 * 1000).build();`
 
-**Timer Listener**
+## Timer Listener
 
 A `TimerListener` can be implemented to receive call backs for various LinearTimer related events.
 
@@ -94,7 +94,7 @@ And then, override the `animationComplete` and `timerTick` methods.
         Log.i("Time left or Time elapsed", String.valueOf(tickUpdateInMillis));
     }
 
-**Progress Direction**
+## Progress Direction
 
 The user can choose to make the progress bar animate in either clockwise or anti-clockwise manner. To change the direction `progressDirection(int progressDirection)` method needs to be added while building LinearTimer.
 
@@ -108,7 +108,7 @@ progressDirection() can have either of the following two parameters -
 
 The default direction is set as clockwise.
 
-**Pre-fill Angle**
+## Pre-fill Angle
 
 If the user wants to pre-fill the circle with the progress color `preFillAngle(float angle)` needs to be added while building LinearTimer. The argument contains the angle till which the pre-fill should occur.
 
@@ -116,7 +116,7 @@ If the user wants to pre-fill the circle with the progress color `preFillAngle(f
 
 The default value is 0.
 
-**Ending Angle**
+## Ending Angle
 
 User can change the angle at which the progress ends by adding `endingAngle(int endingAngle)` method to the Builder.
 
@@ -124,7 +124,7 @@ User can change the angle at which the progress ends by adding `endingAngle(int 
 
 The default value is 0.
 
-**Count Updates**
+## Count Updates
 
 The user can choose to receive the time elapsed since the timer has started or the time remaining for the timer to finish. `getCountUpdate(int countType, long updateInterval)` needs to be added to the builder along with implementation of `TimerListener`.
 
