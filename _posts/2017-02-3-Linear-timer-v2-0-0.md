@@ -33,7 +33,8 @@ List of attributes available to toggle the LinearTimer's basic style -
 
 After adding the view, here is how the View is initialized and used -
 
-     LinearTimerView linearTimerView = (LinearTimerView) findViewById(R.id.linearTimer);
+     LinearTimerView linearTimerView = (LinearTimerView)
+                                        findViewById(R.id.linearTimer);
 
      LinearTimer linearTimer = new new LinearTimer.Builder()
                 .linearTimerView(linearTimerView)
