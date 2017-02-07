@@ -134,7 +134,7 @@ Now we make an abstract class called `ListItem` that will be inherited by two cl
 **(iii) Converting the HashMap data into a sorted list.**
 Next, we consolidate the HashMap into a ArrayList (of our newly created `ListItem` type) called `consolidatedList` with `DateItem` injected between `GeneralItem` at the required places.  
 
-    // We linearly add every
+    // We linearly add every item into the consolidatedList.
     List<ListItem> consolidatedList = new ArrayList<>();
 
     for (String date : groupedHashMap.keySet()) {
@@ -144,7 +144,7 @@ Next, we consolidate the HashMap into a ArrayList (of our newly created `ListIte
 
       for (PojoOfJsonArray pojoOfJsonArray : groupedHashMap.get(date)) {
         GeneralItem generalItem = new GeneralItem();
-        generalItem.setBookingDataTabs(bookingDataTabs);
+        generalItem.setPojoOfJsonArray(pojoOfJsonArray);
         consolidatedList.add(generalItem);
       }
     }
