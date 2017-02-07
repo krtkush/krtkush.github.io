@@ -15,12 +15,11 @@ Primary features -
 3. Provide Start and/ or finish points for the animation.
 4. Pre-fill the progress up-till a certain point.
 5. Resume the animation on the basis of duration elapsed from total duration.
-<br>
+
+
 [Find LinearTimer on Github](https://github.com/krtkush/LinearTimer)
 
 # Usage
-
-
 First, you need to add `LinearTimerView` into your XML layout -
 
     xmlns:app="http://schemas.android.com/apk/res-auto"
