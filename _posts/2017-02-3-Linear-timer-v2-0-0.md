@@ -1,12 +1,12 @@
 ---
 layout: post
-comments: false
+comments: true
 title: LinearTimer
 ---
 
 Linear Timer is a custom view for Android that enables user to show a circular progress animation with respect to given a duration.
 
-Current version - `v2.0.0`
+Current version : `v2.0.0`
 
 Primary features -
 
@@ -15,8 +15,7 @@ Primary features -
 3. Provide Start and/ or finish points for the animation.
 4. Pre-fill the progress up-till a certain point.
 5. Resume the animation on the basis of duration elapsed from total duration.
-
-
+<br>
 [Find LinearTimer on Github](https://github.com/krtkush/LinearTimer)
 
 # Usage
