@@ -1,10 +1,21 @@
 ---
 layout: post
 comments: false
-title: LinearTimer v2.0.0
+title: LinearTimer
 ---
 
-Linear Timer is a custom view for Android that enables circular progress animation with respect to given duration.
+Linear Timer is a custom view for Android that enables user to show a circular progress animation with respect to given a duration.
+
+Current version - `v2.0.0`
+
+Primary features -
+
+1. Progress animation in clock-wise or counter clock-wise direction.
+2. Get time elapsed since timer has started or time left for the timer to finish.
+3. Provide Start and/ or finish points for the animation.
+4. Pre-fill the progress up-till a certain point.
+5. Resume the animation on the basis of duration elapsed from total duration.
+
 
 [Find LinearTimer on Github](https://github.com/krtkush/LinearTimer)
 
@@ -23,7 +34,7 @@ First, you need to add `LinearTimerView` into your XML layout -
         app:radius="20dp"
         app:strokeWidth="3dp"/>
 
-List of attributes available to toggle the LinearTimer's basic style -
+List of attributes available to toggle LinearTimer's basic style -
 
 1. **radius** - The radius of the circle.
 2. **strokeWidth** - the thickness of the circle boundary.
@@ -32,7 +43,7 @@ List of attributes available to toggle the LinearTimer's basic style -
 5. **progressColor** - The color of the progress arc that animates over the initial color.
 
 
-After adding the view, here is how the View is initialized and used -
+After adding the view, here is how it is initialized and used -
 
      LinearTimerView linearTimerView = (LinearTimerView)
                                         findViewById(R.id.linearTimer);
