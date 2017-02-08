@@ -5,8 +5,8 @@
 @import "config";
 
 body {
-    color: $color-primaryfont;
-    background: $color-primaryBg;
+    color: $color-fg;
+    background: $color-bg;
     font-family: 'Inconsolata', ;
     font-size: 100%;
     font-weight: 400;
@@ -165,7 +165,7 @@ ul {
             padding: 3px;
             font-size: 0.9em;
             border-radius: 3px;
-            background: $color-codeBg;
+            background: $color-grey;
         }
         .highlight {
             margin: 10px;
