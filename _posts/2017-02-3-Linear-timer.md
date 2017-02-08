@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: LinearTimer
-tags: [projects, test, LinearTimer, test 2]
+tags: [projects, LinearTimer, code]
 ---
 
 Linear Timer is a custom view for Android that enables user to show a circular progress animation with respect to given a duration.
