@@ -10,7 +10,7 @@ comments: true
 
   <ul class="tags">
       {% for tag in page.tags %}
-        <a href="{{baseurl}}tags#{{tag}}" class="tag">{{ tag }}</a>
+        <li><a href="{{baseurl}}tags#{{tag}}" class="tag">{{ tag }}</a></li>
       {% endfor %}
   </ul>
 
