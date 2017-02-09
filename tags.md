@@ -19,7 +19,7 @@ title: Tags
 <!--cycles through tag list and creates subheader for each tag name...-->
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-      <b id="{{ this_word | cgi_escape }}">{{ this_word }}</b>
+      <b id="{{ this_word | cgi_escape }}">{{ **this_word** }}</b>
       <br>
 <!--  lists all posts corresponding to specific tag...-->
     {% for post in site.tags[this_word] %}{% if post.title != null %}
