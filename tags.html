@@ -1,6 +1,6 @@
 ---
 layout: default
-title: tags
+title: Tags
 ---
 
 {% include header.html %}
@@ -14,12 +14,12 @@ title: tags
 <!--  cycles through tag list and creates header row of all tags used in site with accompanying per-tag counts...-->
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-    <li ><a href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }} <span>({{ site.tags[this_word].size }})</span></a></li>
+    <a href="#{{ this_word | cgi_escape }}" class="tag">{{ this_word }} <span>({{ site.tags[this_word].size }}) ","</span></a>
   {% endunless %}{% endfor %}
   </ul>
 
   <br>
-  
+
 <!--cycles through tag list and creates subheader for each tag name...-->
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
