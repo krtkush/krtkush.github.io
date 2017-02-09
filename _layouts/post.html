@@ -9,9 +9,9 @@ comments: true
   <p class="post__date">{{ page.date | date: '%B %-d, %Y' }}</p>
 
   <ul class="tags">
-      Tags: 
+      Tags:
       {% for tag in page.tags %}
-        <a href="{{ site.url }}/tags#{{tag}}" class="tag">{{ tag }}</a>
+        <a href="{{ site.url }}/tags#{{tag}}" class="tag">{{ tag }}</a>.
       {% endfor %}
   </ul>
 
