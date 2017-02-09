@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Android - Linear Circular Progress Bar
+tags: [Code, LinearTimer, Android]
 ---
 
 I'm planning to write an open source library for a countdown/ up timer with circular

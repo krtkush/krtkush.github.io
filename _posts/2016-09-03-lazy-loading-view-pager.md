@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Lazy loading ViewPager tabs
+tags: [Code, ViewPager, Android, MarsExplorer]
 ---
 
 In this post I share how I built a ViewPager with dynamic tab addition.

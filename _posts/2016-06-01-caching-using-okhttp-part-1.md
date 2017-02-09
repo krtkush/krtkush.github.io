@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Response caching using OkHttp (Part 1)
+tags: [Code, Caching, OkHttp, Android]
 ---
 
 Retrofit has an excellent feature which lets developers cache responses for future use. Caching is ideally controlled by HTTP headers which are sent by the server in its response. You can read more about HTTP caching over [here](https://tools.ietf.org/html/rfc7234).

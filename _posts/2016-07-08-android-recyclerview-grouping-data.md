@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Android RecyclerView - Grouping Data
+tags: [Code, RecyclerView, Android]
 ---
 
 **This post was featured in [Android Weekly's #238 issue](http://androidweekly.net/issues/issue-238).**

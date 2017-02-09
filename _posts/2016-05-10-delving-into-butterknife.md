@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title: Delving into Butterknife
+tags: [Code, Butterknife, Android]
 ---
 
 Butterknife comes up right on top of my 'Basic Android libraries to use' list whenever I'm setting up a new Android project. It is fairy simple to use and straight forward to implement. It helps me get rid of lot of boilerplate code and makes my code look pretty and easy to understand. I highly recommend it.
