@@ -2,8 +2,9 @@
 layout: about
 ---
 
-Hello, my name is Kartikey Kushwaha. I am an Android Developer and a design nerd.
-I like to learn and hoard information.
+Hello, my name is Kartikey Kushwaha.
+
+I am an Android developer and a design nerd. I love building aesthetically pleasing apps with a lot of effort towards user experience. I have an undying love for running, reading and exploring mountains.
 
 # About this Jekyll theme
-Modified [Basic by Micah Cowell](http://jekyllthemes.org/themes/basic/)
+I use [Basic by Micah Cowell](http://jekyllthemes.org/themes/basic/), which I have further customized to meet my requirements.
