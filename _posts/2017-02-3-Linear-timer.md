@@ -7,7 +7,7 @@ tags: [Projects, LinearTimer, Code, Android]
 
 Linear Timer is a custom view for Android that enables user to show a circular progress animation with respect to a given duration.
 
-Current version : `v2.0.0`
+Current version : `v2.0.1`
 
 Primary features -
 
@@ -29,18 +29,20 @@ First, you need to add `LinearTimerView` into your XML layout -
     <io.github.krtkush.lineartimer.LinearTimerView
         android:id="@+id/linearTimer"
         android:layout_centerHorizontal="true"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:radius="20dp"
         app:strokeWidth="3dp"/>
 
+Note that "wrap_content" for height and width is the correct argument. Using other values might not lead correct rendering of the view.
+
 List of attributes available to toggle LinearTimer's basic style -
 
-1. **radius** - The radius of the circle.
-2. **strokeWidth** - the thickness of the circle boundary.
-3. **startingPoint** - The angle from where, in the timer, you want the animation to start. 270 is the 12 O'Clock position.
-4. **initialColor** - The initial color of the circle.
-5. **progressColor** - The color of the progress arc that animates over the initial color.
+1. **radius** - (Mandatory) The radius of the circle.
+2. **strokeWidth** - (Mandatory) The thickness of the circle boundary.
+3. **startingPoint** - (Optional) The angle from where, in the timer, you want the animation to start. 270 is the 12 O'Clock position.
+4. **initialColor** - (Optional) The initial color of the circle.
+5. **progressColor** - (Optional) The color of the progress arc that animates over the initial color.
 
 
 After adding the view, here is how it is initialized and used -
