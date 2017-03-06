@@ -5,7 +5,7 @@ title: LinearTimer
 tags: [Projects, LinearTimer, Code, Android]
 ---
 
-**This post will no longer be updated anymore. Documentation has been moved to the repository [wiki](https://github.com/krtkush/LinearTimer/wiki)**
+**This post will no longer be updated. Documentation has been moved to the repository [wiki](https://github.com/krtkush/LinearTimer/wiki)**
 
 Linear Timer is a custom view for Android that enables user to show a circular progress animation with respect to a given duration.
 
