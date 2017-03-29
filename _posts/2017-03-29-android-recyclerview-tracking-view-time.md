@@ -166,6 +166,7 @@ We'll make a class, called `ViewTracker`, that'll accept the instance of the Rec
           });
     }
 
+    // Track the items currently visible and then stop the tracking process.
     public void stopTracking() {
 
             endTime = System.currentTimeMillis();
