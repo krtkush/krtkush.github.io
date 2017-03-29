@@ -267,6 +267,11 @@ To the above two methods, it does not matter whether the item is partially visib
 
 To filter out the partially visible views we have `getVisibleHeightPercentage()` method that measures the percentage of a view actually on the screen (in terms of height). We can set a threshold (of, for example, 40%) and ignore any view whose visibility is below that point.
 
+We create a `Rect` object and associate it with the view whose visibility we want to check. The method `rect.height` gives us the visible height of the view and `view.getMeasuredHeight` gives us the total height of the view irrespective of how much of it is visible on the screen.
+
+Now, we can easily use the above two values to find the height percentage and compare it with the threshold we have set. 
+
+
 The final data is stored in an ArrayList of `TrackingData`.
 
 When it comes to tracking user behaviour on a RecyclerView, we can lot more functionality - like tracking taps on views inside the list item or on the item itself. Though, all this is beyond the scope of this article.
