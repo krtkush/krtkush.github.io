@@ -254,5 +254,8 @@ We'll make a class, called `ViewTracker`, that'll accept the instance of the Rec
       }
     }    
 
+The way we go about finding the items that are visible to the user is by using `findFirstVisibleItemPosition()` and `findLastVisibleItemPosition` methods. These methods return the first and last item attached to the RecyclerView respectively. Now, by knowing the positions of these two methods, we can 
+
+To these methods, it does not matter whether the item is partially visible or completely. We could have substituted the above methods
 
 We see that the final data is stored in an ArrayList of `TrackingData`.
