@@ -5,6 +5,8 @@ title: Response caching using OkHttp (Part 2)
 tags: [Code, Caching, OkHttp, Android]
 ---
 
+**This post was featured in [AndroidDev Digest's #136 issue](https://www.androiddevdigest.com/digest136/).**
+
 In the [previous post](https://krtkush.github.io/2016/06/01/caching-using-okhttp-part-1.html) I explained how we can use Retrofit and OkHttp to cache responses for various use cases.
 
 The apparent problem with the linked approach is that *every* API request will have its Cache-Headers modified by the interceptors. There is no way to control API requests individually. To solve this problem I have come with a, dare I say, elegant hack - We add some custom headers while sending the request, whose value the interceptors will check and act accordingly.
