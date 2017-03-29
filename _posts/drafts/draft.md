@@ -223,7 +223,7 @@ We'll make a class, called `ViewTracker`, that'll accept the instance of the Rec
           Rect itemRect = new Rect();
           view.getLocalVisibleRect(itemRect);
 
-          // Find the height of the top item.
+          // Find the height of the item.
           double visibleHeight = itemRect.height();
           double height = view.getMeasuredHeight();
 
@@ -254,12 +254,12 @@ We'll make a class, called `ViewTracker`, that'll accept the instance of the Rec
       }
     }    
 
-The way we go about finding the items that are visible to the user is by using `findFirstVisibleItemPosition()` and `findLastVisibleItemPosition()` methods provided by the Android SDK. These methods return the first and last items partially or completely visible. Now, by knowing the positions of these two items, we can find all the item between them and conclude that those items are visible.
+The way we go about finding the items that are visible to the user is by using `findFirstVisibleItemPosition()` and `findLastVisibleItemPosition()` methods provided by the Android SDK. These methods return the first and last items partially or completely visible. Now, by knowing the positions of these two items, we can find all the item between them and conclude that those items are visible too.
 
 Do note, the method `findLastVisibleItemPosition()` can return the item right below the last visible item because technically, it fetches the last attached item in the RecyclerView.
 
-To the above two methods, it does not matter whether the item is partially visible or completely. We could have substituted them with `findFirstCompletelyVisibleItemPosition` and `findLastCompletelyVisibleItemPosition` respectively had we wanted to ignore the partially visible views.
+To the above two methods, it does not matter whether the item is partially visible or completely. We could have substituted them with `findFirstCompletelyVisibleItemPosition` and `findLastCompletelyVisibleItemPosition` respectively had we wanted to ignore the partially visible views. But, in our case it does not make any difference, we can use any of those methods.
 
 To filter out the partially visible views we have `getVisibleHeightPercentage()` that measures the percentage of a view actually on the screen (in terms of height). We can set a threshold (of, for example, 40%) and ignore any view visibility below that point.
 
-We see that the final data is stored in an ArrayList of `TrackingData`.
+The final data is stored in an ArrayList of `TrackingData`.
