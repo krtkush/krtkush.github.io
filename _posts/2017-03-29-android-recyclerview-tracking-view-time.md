@@ -5,19 +5,19 @@ title: Android RecyclerView - Tracking time spent viewing items
 tags: [Code, RecyclerView, Android]
 ---
 
-There are multiple analytics tools for providing insightful information with respect to user behaviour, bugs and crashes on an app. One parameter that seemed to be missing in most free analytic tools is the time spent looking at a certain view in Android and then providing the raw data of it.
+There are multiple analytics tools for providing insightful information with respect to user behaviour, bugs and crashes on an app. One parameter that seemed to be missing in most free analytic tools is the time spent looking at a certain view in Android and then providing the raw data about it.
 
-In this post I explain how to track the time a user spends looking at certain items in a RecyclerView.
+In this post I'll explain how to track the time a user spends looking at certain items in a RecyclerView.
 
-We assume that any item, within the RecyclerView, with a certain minimum visibility, for a certain time on the screen is being viewed by the user. For example, suppose an item with 100% of its height and width within the screen of the device for greater than 3 seconds is being shown. We assume that that such an item has captured the users attention and hence, should be tracked.
+We assume that any item, within the RecyclerView, with a certain minimum visibility, for a certain time on the screen is being viewed by the user. For example, suppose an item with 100% of its height and width within the screen of the device for greater than 3 seconds is being shown; we assume that that such an item has captured the users attention and hence, should be tracked.
 
 We'll need a RecyclerView and add `OnGlobalLayoutListener` and `OnScrollListener` to it to make our tracking work.
 
-`OnGlobalLayoutListener` is needed to detect when the RecyclerView has successfully been populated by the adapter for the first timer and when the developer wants the tracking to stop.
+`OnGlobalLayoutListener` is needed to detect when the RecyclerView has successfully been populated by the adapter for the first time and when the developer wants the tracking to stop. This is needed because in normal cases we'll rely on the `OnScrollListener` to track items but in the cases mentioned above, `OnScrollListener` will not be activated.
 
 `OnScrollListener` is required for tracking all the items the user might see on scrolling down and back up.
 
-**(i) Defining Data Structure**
+**Defining the Data Structure**
 
 Before we start tracking we need to define the data structure under which we'll be storing all the data. We'll make a simple POJO and call it `TrackingData`.
 
@@ -57,7 +57,7 @@ Before we start tracking we need to define the data structure under which we'll 
       }
     }
 
-**(ii) Defining tracking logic**
+**Defining tracking logic**
 
 We'll make a class, called `ViewTracker`, that'll accept the instance of the RecyclerView and will provide the method to start & stop the tracking and to get the tracking data.
 
@@ -255,12 +255,18 @@ We'll make a class, called `ViewTracker`, that'll accept the instance of the Rec
       }
     }    
 
+**(a) Finding the items that are visible on the screen**
+
 The way we go about finding the items that are visible to the user is by using `findFirstVisibleItemPosition()` and `findLastVisibleItemPosition()` methods provided by the Android SDK. These methods return the first and last items partially or completely visible. Now, by knowing the positions of these two items, we can find all the item between them and conclude that those items are visible too.
 
 Do note, the method `findLastVisibleItemPosition()` can return the item right below the last visible item because technically, it fetches the last attached item in the RecyclerView.
 
 To the above two methods, it does not matter whether the item is partially visible or completely. We could have substituted them with `findFirstCompletelyVisibleItemPosition` and `findLastCompletelyVisibleItemPosition` respectively had we wanted to ignore the partially visible views. But, in our case it does not make any difference, we can use any of those methods.
 
-To filter out the partially visible views we have `getVisibleHeightPercentage()` that measures the percentage of a view actually on the screen (in terms of height). We can set a threshold (of, for example, 40%) and ignore any view visibility below that point.
+**(b) Figuring out the visible percentage of a view (w.r.t. height)**
+
+To filter out the partially visible views we have `getVisibleHeightPercentage()` method that measures the percentage of a view actually on the screen (in terms of height). We can set a threshold (of, for example, 40%) and ignore any view whose visibility is below that point.
 
 The final data is stored in an ArrayList of `TrackingData`.
+
+When it comes to tracking user behaviour on a RecyclerView, we can lot more functionality - like tracking taps on views inside the list item or on the item itself. Though, all this is beyond the scope of this article.
