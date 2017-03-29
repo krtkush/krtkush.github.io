@@ -271,7 +271,7 @@ We create a `Rect` object and associate it with the view whose visibility we wan
 
 Now, we can easily use the above two values to find the height percentage and compare it with the threshold we have set.
 
-</br>
+<br>
 
 The final data is stored in an ArrayList of `TrackingData`.
 
