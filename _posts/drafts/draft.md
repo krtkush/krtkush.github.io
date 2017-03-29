@@ -254,8 +254,12 @@ We'll make a class, called `ViewTracker`, that'll accept the instance of the Rec
       }
     }    
 
-The way we go about finding the items that are visible to the user is by using `findFirstVisibleItemPosition()` and `findLastVisibleItemPosition` methods. These methods return the first and last item attached to the RecyclerView respectively. Now, by knowing the positions of these two methods, we can 
+The way we go about finding the items that are visible to the user is by using `findFirstVisibleItemPosition()` and `findLastVisibleItemPosition()` methods provided by the Android SDK. These methods return the first and last items partially or completely visible. Now, by knowing the positions of these two items, we can find all the item between them and conclude that those items are visible.
 
-To these methods, it does not matter whether the item is partially visible or completely. We could have substituted the above methods
+Do note, the method `findLastVisibleItemPosition()` can return the item right below the last visible item because technically, it fetches the last attached item in the RecyclerView.
+
+To the above two methods, it does not matter whether the item is partially visible or completely. We could have substituted them with `findFirstCompletelyVisibleItemPosition` and `findLastCompletelyVisibleItemPosition` respectively had we wanted to ignore the partially visible views.
+
+To filter out the partially visible views we have `getVisibleHeightPercentage()` that measures the percentage of a view actually on the screen (in terms of height). We can set a threshold (of, for example, 40%) and ignore any view visibility below that point.
 
 We see that the final data is stored in an ArrayList of `TrackingData`.
