@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Android RecyclerView - Tracking time spent viewing items
+title: RecyclerView - Tracking time spent viewing each item
 tags: [Code, RecyclerView, Android]
 ---
 
