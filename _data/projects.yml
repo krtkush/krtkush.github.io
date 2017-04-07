@@ -5,3 +5,7 @@
 - name: Linear Timer
   url: https://github.com/krtkush/LinearTimer
   tag: Android Custom View
+
+- name: Trail
+  url: https://github.com/krtkush/Trail
+  tag: Android library for user behaviour tracking
