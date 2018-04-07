@@ -27,6 +27,8 @@ In March, this year, Google released the first developer preview of the next And
 
 Google seems to be moving to a more controlled and closed environment which is understandable given that people (and even Google) want a more secure, stable ecosystem which respects their privacy. Personally, as long as the custom ROM & root community is not actively discouraged, given enough breathing space and not encourage cat and mouse games, I think Android will do fine for casual and enthusiast users.
 
+On the other hand, for me, Android ecosystem is moving to a less diverse in term of device specifications. Later this year I'll probably be in the market for a new phone. I prefer smaller/ compat phones (<5 inches screen) with unlockable bootloaders that can be rooted and support custom ROMs. Unfortunately, I can't seem to find a device to match my needs anywhere. Nokia 5 comes really close but Nokia seems to have no interest in unlocked bootloaders. I'm running out of devices which are not as big as a tablet.  
+
 
 *Google later removed this limit. [8]
 
