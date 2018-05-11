@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Bookshelf: The Modern Architecture of New Delhi
+title: Bookshelf - The Modern Architecture of New Delhi
 tags: [Bookshelf]
 ---
 
