@@ -10,7 +10,7 @@ HM-10 bluetooth module is the most common BT module for Andruino. Chances are th
 Now, there are loads of articles and tutorials directing how to make an app which will connect to the module and send/ receive data hence I won't be rewriting that. What this post is about how I overcame a problem with respect to data transfer between HM-10 and Android app with a simple fix.
 
 **Problem** - Data being accepted getting jumbled up to the point where the data made no sense. Example, the module emits data like this - 
-`0,501,486,995;` But the android device receives the data like this - `,496,482,995;0,503,488,995;0,501,486,995;0,496,480,996;0,502,486,995;0,501,486,995;0,502,486,995;0,501,486,995;0,503,487,995;0,` or `996;,474,`.
+`0,501,486,995;` But the android device receives the data like this - `,496,482,995;0,503,488,995;0,501,486,995;0,496,480,996;0,502,486,995;0,` or `996;,474,`.
 
 The code to accept data is usually similar to this - 
 
