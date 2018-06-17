@@ -7,7 +7,7 @@ tags: [Bookshelf]
 
 The year is half over. 
 
-Because at the beginning of they year I had promised myself that I'll read more and documented that in this (post)[https://krtkush.github.io/2018/02/22/bookshelf.html], this is a followup of what all I have read till now. 
+Because at the beginning of they year I had promised myself that I'll read more and documented that in this [post](https://krtkush.github.io/2018/02/22/bookshelf.html), this is a followup of what all I have read till now. 
 
 Books - 
 1. Delhi: A novel
