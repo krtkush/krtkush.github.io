@@ -16,6 +16,8 @@ Books -
 3. Train to Pakistan
 4. Maximum City: Bombay Lost & Found 
 
+<br><br>
+
 Audio books -
 
 This was for the first time I listened to Audio books. I was always sceptical about what the experience would be like; the thought of listening to someone recite a book was quite unappealing. But after about a month of listening to them, I'm hooked. They're excellent while commuting, running or doing any task that does not require much brain power. As a bonus, they're quicker to finish too. 
@@ -25,7 +27,10 @@ This was for the first time I listened to Audio books. I was always sceptical ab
 3. Harry Potter and the Chamber of Secrets
 4. Harry Potter and the Prisoner of Azkaban
 
+<br><br>
+
 Currently reading -
+
 1. City of Djinns: A Year in Delhi
 2. Bauhaus
 
