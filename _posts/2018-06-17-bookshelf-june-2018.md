@@ -16,7 +16,7 @@ Books -
 3. Train to Pakistan
 4. Maximum City: Bombay Lost & Found 
 
-<br><br>
+<br>
 
 Audio books -
 
@@ -27,7 +27,7 @@ This was for the first time I listened to Audio books. I was always sceptical ab
 3. Harry Potter and the Chamber of Secrets
 4. Harry Potter and the Prisoner of Azkaban
 
-<br><br>
+<br>
 
 Currently reading -
 
