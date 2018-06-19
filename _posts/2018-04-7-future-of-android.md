@@ -5,17 +5,17 @@ title: Thoughts on Future of Android
 tags: [Android]
 ---
 
-Last week XDA reported that uncertified devices will not be able to run Google apps anymore [1]. As highlighted, custom ROMs were left out of these newly imposed restrictions but (all devices) had a new 100 device registration limit*. Such restrictions are warranted as smart phones continue to integrate deeper into people's life and need to be more secure than ever before because of piracy concerns by copyright holders and security concerns of payment apps. 
+Last week XDA reported that uncertified devices will not be able to run Google apps anymore [1]. As highlighted, custom ROMs were left out of these newly imposed restrictions but (all devices) had a new 100 device registration limit*. Such restrictions are warranted as smart phones continue to integrate deeper into people's life and need to be more secure because of piracy and security concerns of both developers and users.
 
-That said, in my opinion, Android is moving to a closed ecosystem with Google trying to emulate Apple's walled garden. In this blog post I try to explain why I think so and my opinion about it as an Android developer.
+That said, in my opinion, Android seems to be moving to a closed ecosystem with Google trying to emulate Apple's walled garden. In this post I try to explain reasons for thinking so and my opinion about it as an Android developer.
 
-In 2015, Google released a new version of Android called Marshmallow and along with it came one of the biggest changes of the OS - Doze mode[2]. Doze mode endeavoured to fix Android's battery problem. With completely free reign over background processes and the license to wake up devices whenever they fancy to, developers abused Android's rather liberal resource allocation policy leading to Android devices gaining a bad reputation for having a pathetic battery life. 
+In 2015, Google released a new version of Android called Marshmallow and along with it came one of the biggest changes to the OS - Doze mode[2]. Doze mode endeavoured to fix Android's battery problem. With a completely free reign over background processes and the license to wake up devices whenever they fancy to, developers abused Android's liberal resource allocation policy leading to Android devices earning a reputation for having a pathetic battery life. 
 
 Doze was a welcome change. The OS would put limitations on an app's background activity and it's ability to acquire wake-locks. But Google gave a "master key" to developers in the form of FCM/ GCM priority notifications. Any app can momentarily escape doze mode if it receives a high-priority FCM message [3]. Thus, Google successfully forced a private API onto an open source operating system. 
 
 Commonsware explained the situation eloquently -
 
-> Beyond this, intentionally altering an open source operating system to steer people towards proprietary APIs reeks of Mafia-style behavior (“Gee, that’s a nice app you have there. Pity if something were to happen to it”). If push messaging on Android were an open, pluggable system, with multiple competing implementations, I would have no problem with Android giving benefits towards apps that use push. But third-party push engines (e.g., XMPP, WebSockets-based long polling) are going to be subject to “Doze mode” and “app standby” and cannot help apps get the data they need when the user asked for that data. Here, GCM’s exalted status, and Android’s dependence upon it, represents damage to be routed around.
+"Beyond this, intentionally altering an open source operating system to steer people towards proprietary APIs reeks of Mafia-style behavior (“Gee, that’s a nice app you have there. Pity if something were to happen to it”). If push messaging on Android were an open, pluggable system, with multiple competing implementations, I would have no problem with Android giving benefits towards apps that use push. But third-party push engines (e.g., XMPP, WebSockets-based long polling) are going to be subject to “Doze mode” and “app standby” and cannot help apps get the data they need when the user asked for that data. Here, GCM’s exalted status, and Android’s dependence upon it, represents damage to be routed around."
 
 Over the subsequent versions of Android, Google made doze mode stricter and more aggressive while FCM remains the only "master key".
 
