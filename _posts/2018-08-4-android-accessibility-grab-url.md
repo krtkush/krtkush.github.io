@@ -30,7 +30,8 @@ Now that we have that out of the way let's look at the code.
 
             final String packageName = String.valueOf(source.getPackageName());
 
-            String BROWSER_LIST = ""; // Add browser package list here (comma seperated values)
+            // Add browser package list here (comma seperated values)
+            String BROWSER_LIST = "";
 
             List<String> browserList = Arrays.asList(BROWSER_LIST.split(",\\s*"));
             if (event.getEventType() 
@@ -43,7 +44,7 @@ Now that we have that out of the way let's look at the code.
             if (browserList.contains(packageName)) {
               try {
                 // App opened is a browser.
-                // Parse urls in browser and check if the url are of our merchant's.
+                // Parse urls in browser.
                 if (AccessibilityEvent
                   .eventTypeToString(event.getEventType())
                   .contains("WINDOW")) {
