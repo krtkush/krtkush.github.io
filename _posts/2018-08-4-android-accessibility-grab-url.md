@@ -33,7 +33,8 @@ Now that we have that out of the way let's look at the code.
             String BROWSER_LIST = ""; // Add browser package list here (comma seperated values)
 
             List<String> browserList = Arrays.asList(BROWSER_LIST.split(",\\s*"));
-            if (event.getEventType() == AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED) {
+            if (event.getEventType() 
+              == AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED) {
               if (!browserList.contains(packageName)) {
                 return;
               }
@@ -43,7 +44,9 @@ Now that we have that out of the way let's look at the code.
               try {
                 // App opened is a browser.
                 // Parse urls in browser and check if the url are of our merchant's.
-                if (AccessibilityEvent.eventTypeToString(event.getEventType()).contains("WINDOW")) {
+                if (AccessibilityEvent
+                  .eventTypeToString(event.getEventType())
+                  .contains("WINDOW")) {
                   AccessibilityNodeInfo nodeInfo = event.getSource();
                   getUrlsFromViews(nodeInfo);
                 }
@@ -69,7 +72,8 @@ Now that we have that out of the way let's look at the code.
 
                 String capturedText = info.getText().toString();
 
-                    if (capturedText.contains("https://") || capturedText.contains("http://")) {
+                    if (capturedText.contains("https://") 
+                      || capturedText.contains("http://")) {
                       if (!previousUrl.equals(capturedText)) {
                         // Do something with the url.
                         previousUrl = capturedText;
