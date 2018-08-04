@@ -33,7 +33,8 @@ Now that we have that out of the way let's look at the code.
             // Add browser package list here (comma seperated values)
             String BROWSER_LIST = "";
 
-            List<String> browserList = Arrays.asList(BROWSER_LIST.split(",\\s*"));
+            List<String> browserList 
+              = Arrays.asList(BROWSER_LIST.split(",\\s*"));
             if (event.getEventType() 
               == AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED) {
               if (!browserList.contains(packageName)) {
