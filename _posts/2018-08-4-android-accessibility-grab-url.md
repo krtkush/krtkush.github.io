@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Android Accessibility Service - Grabbing URLs from a browser URL bar.
+title: Android Accessibility - Grabbing URLs from a browser
 tags: [Code, Android]
 ---
     
