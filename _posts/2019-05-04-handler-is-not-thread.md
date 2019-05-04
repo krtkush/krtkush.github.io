@@ -5,7 +5,7 @@ title: Android Multi Threading - Handler is not a thread
 tags: [Code, threading, Android]
 ---
 
-One mistake I see Android developers make is that they consider making a `handler` equivalent to starting a new thread. It is not uncommon to come accross questions like (these)[https://stackoverflow.com/questions/6964011/handler-vs-asynctask-vs-thread/9800870#9800870]. 
+One mistake I see Android developers make is that they consider making a `handler` equivalent to starting a new thread. It is not uncommon to come accross questions like [these](https://stackoverflow.com/questions/6964011/handler-vs-asynctask-vs-thread/9800870#9800870).
 
 In this post I'll explain what a Handler is and how to use it.
 
