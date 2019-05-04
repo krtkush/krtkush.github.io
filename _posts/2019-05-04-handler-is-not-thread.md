@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Android Multi-Threading: Handler is not a thread
+title: Android Multi Threading: Handler is not a thread
 tags: [Code, threading, Android]
 ---
 
