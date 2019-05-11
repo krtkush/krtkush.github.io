@@ -5,13 +5,14 @@ title: Android Multi Threading - Handler is not a thread
 tags: [Code, threading, Android]
 ---
 
-One mistake I see Android developers make is that they consider making a `handler` equivalent to starting a new thread. It is not uncommon to come accross questions like [these](https://stackoverflow.com/questions/6964011/handler-vs-asynctask-vs-thread/9800870#9800870).
+One mistake I see Android developers make is that they consider making a `handler` equivalent to starting a new thread. It is not uncommon to come accross questions like [these](https://stackoverflow.com/questions/6964011/handler-vs-asynctask-vs-thread/9800870#9800870);which confuse handler with a thread.
 
 In this post I'll explain what a Handler is and how to use it.
 
 `Handler` is unique to Android and is not part of Java's native multi-threading toolkit. It has one job and that is to enable a thread to communicate with another thread. What do we mean by communicate with another thread? Two things - 
 
 1. We can send a `Message` object to the Handler and have the `Handler` extract data from it in its `handleMessage` method.
+
 2. We can execute a block of code wrapped around in a `Runnable` on the other thread.
 
 Suppose we have a thread `A` as the main thread (UI thread) and `B` as a worker thread. Now, we want to log some text in `B` that is sent by thread `A`
@@ -140,8 +141,11 @@ You can confirm which thread all the code is being executed on by logging thread
 # Summery
 
 1. Just making a handler in a main thread will not ensure that the code will be executed in a new thread.
+
 2. A handler works alongside a looper and a thread. 
+
 3. Looper ensures that the thread does not die. 
+
 4. For a handler to execute code in the right thread the handler needs to be either created in the said thread or the looper of the said thread needs to be associated with the handler at the time of its creation.
 
 
