@@ -5,7 +5,7 @@ title: Android Multi Threading - Handler is not a thread
 tags: [Code, threading, Android]
 ---
 
-One mistake I see Android developers make is that they consider making a `handler` equivalent to starting a new thread. It is not uncommon to come accross questions like [these](https://stackoverflow.com/questions/6964011/handler-vs-asynctask-vs-thread/9800870#9800870);which confuse handler with a thread.
+One mistake I see Android developers make is that they consider making a `handler` equivalent to starting a new thread. It is not uncommon to come accross questions like [these](https://stackoverflow.com/questions/6964011/handler-vs-asynctask-vs-thread/9800870#9800870); which confuse handler with a thread.
 
 In this post I'll explain what a Handler is and how to use it.
 
@@ -65,9 +65,9 @@ Attaching a looper to a thread -
 
 **Why pass instance of looper into the Handler?**
 
-Because the `Handler` needs to know which thread to execute its `handleMessage` or `runnable` code block on. **By default, a handler will attach itself to the looper of the thread it has been created in.** So if you make a Handler in the main thread without passing a looper to it, it will automatically attach itself to the main thread and hence execute all the code on the main thread (Giving an illusion of multi-threaded execution to developers unaware its behaviour). The main thread is the only thread which by default has a looper attached to it; the said looper can be obtained by calling `Looper.getMainLooper()`.
+Because the `Handler` needs to know which thread to execute its `handleMessage` or `runnable` code block on. **By default, a handler will attach itself to the looper of the thread it has been created in.** So if you make a Handler in the main thread without passing a looper to it, it will automatically attach itself to the main thread and hence execute all the code on the main thread (Giving an illusion of multi-threaded execution to developers unaware of its behaviour). The main thread is the only thread which by default has a looper attached to it; the said looper can be obtained by calling `Looper.getMainLooper()`.
 
-**Try this:** Try creating a handler inside a worker thread which does not have looper associated to it.
+**Try this:** Create a handler inside a worker thread which does not have looper associated to it.
 
 **Thread B -**
 
