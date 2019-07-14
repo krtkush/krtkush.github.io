@@ -20,7 +20,7 @@ Because at the beginning of they year I had promised myself that I'll read more 
 
 **Audio books -**
 
-This was for the first time I listened to Audio books. I was always sceptical about what the experience would be like; the thought of listening to someone recite a book was quite unappealing. But after about a month of listening to them, I'm hooked. They're excellent while commuting, running or doing any task that does not require much brain power. As a bonus, they're quicker to finish too. 
+This was for the first time I listened to Audio books. I was always skeptical about what the experience would be like; the thought of listening to someone recite a book was quite unappealing. But after about a month of listening to them, I'm hooked. They're excellent while commuting, running or doing any task that does not require much brain power. As a bonus, they're quicker to finish too. 
 
 1. The Lord of the Rings - The Fellowship of The Ring
 2. Harry Potter and the The Philosopher's Stone
