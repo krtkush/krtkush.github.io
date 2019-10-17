@@ -9,7 +9,7 @@ tags: [Bookshelf]
 
 **Books -** 
 
-1. The Emperor of All Maladies by Siddhartha Mukherjee
+1. 1. The Emperor of All Maladies by Siddhartha Mukherjee
 2. Capital by Rana Dasgupta
 3. Connaught Place and the Making of New Delhi 
 
