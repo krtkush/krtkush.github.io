@@ -37,7 +37,7 @@ Further reading-
 
 Various contact tracing approaches that have been made public:
 
-[Apple | Google](https://www.apple.com/covid19/contacttracing/), [Bluetrace](https://bluetrace.io/) | [Opentrace](https://github.com/OpenTrace-Community), [MIT PACT](https://pact.mit.edu/), [TCN Coalition](https://tcn-coalition.org/), [DP-3T](https://en.wikipedia.org/wiki/Decentralized_Privacy-Preserving_Proximity_Tracing), [PEPP-PT](https://en.wikipedia.org/wiki/Pan-European_Privacy-Preserving_Proximity_Tracing)
+[Apple Google](https://www.apple.com/covid19/contacttracing/), [Bluetrace](https://bluetrace.io/), [Opentrace](https://github.com/OpenTrace-Community), [MIT PACT](https://pact.mit.edu/), [TCN Coalition](https://tcn-coalition.org/), [DP-3T](https://en.wikipedia.org/wiki/Decentralized_Privacy-Preserving_Proximity_Tracing), [PEPP-PT](https://en.wikipedia.org/wiki/Pan-European_Privacy-Preserving_Proximity_Tracing)
 
 
 IFF's work wrt current situation: 
