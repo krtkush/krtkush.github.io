@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: India's Vanishing Privacy : Part 1
+title: India's Vanishing Privacy - Part 1
 tags: [Privacy]
 ---
 
