@@ -28,15 +28,15 @@ If all this was not fear inducing there is more — the government has now made 
 
 At this point we should go back to IFF's report which states "IFF’s Working Paper, analyses the application, highlights how it is inconsistent with the right to privacy, **is conceivably a risk toward a permanent system of mass surveillance**, and suggests clear recommendations to arrest these risks." In less than a months time the prediction seems to be taking shape as reality.
 
-What should have been done was engagement with academics, ethical philosophers, and various representatives of the people. What happened was an opaque partnership between a private company and the government with complete absence of any form dialogue.
+What should have been done was engagement with academics, ethical philosophers, and various representatives of the people. What happened was an opaque partnership between a private company and the government with complete absence of any form of dialogue and the app being forced on the people.
 
 Given the track record our governments through the years, it would be naive to believe that this app is temporary. Expect it to evolve, transform and gain more capabilities with time.
 
 Further reading-
 
-1. Various contact tracing approaches that have been made public: [Apple | Google](https://www.apple.com/covid19/contacttracing/), [Bluetrace](https://bluetrace.io/) | [Opentrace](https://github.com/OpenTrace-Community), [MIT PACT](https://pact.mit.edu/), [TCN Coalition](https://tcn-coalition.org/)
+1. Various contact tracing approaches that have been made public: [Apple | Google](https://www.apple.com/covid19/contacttracing/), [Bluetrace](https://bluetrace.io/) | [Opentrace](https://github.com/OpenTrace-Community), [MIT PACT](https://pact.mit.edu/), [TCN Coalition](https://tcn-coalition.org/), [DP-3T](https://en.wikipedia.org/wiki/Decentralized_Privacy-Preserving_Proximity_Tracing), [PEPP-PT](https://en.wikipedia.org/wiki/Pan-European_Privacy-Preserving_Proximity_Tracing)
 
-2. IFF work wrt current situation: (i) https://internetfreedom.in/45-organizations-and-105-prominent-individuals-push-back-against-the-coercion-of-aarogya-setu/ (ii) https://internetfreedom.in/workers-privacy-during-covid-19/ (iii) https://internetfreedom.in/legal-notice-to-becil-for-its-tender-to-procure-employee-tracking-smartwatches-and-a-mass-surveillance-system/ (iv) https://internetfreedom.in/a-comprehensive-look-at-covid-surveillance-and-privacy-in-india/
+2. IFF's work wrt current situation: (i) https://internetfreedom.in/45-organizations-and-105-prominent-individuals-push-back-against-the-coercion-of-aarogya-setu/ (ii) https://internetfreedom.in/workers-privacy-during-covid-19/ (iii) https://internetfreedom.in/legal-notice-to-becil-for-its-tender-to-procure-employee-tracking-smartwatches-and-a-mass-surveillance-system/ (iv) https://internetfreedom.in/a-comprehensive-look-at-covid-surveillance-and-privacy-in-india/
 
 
 
