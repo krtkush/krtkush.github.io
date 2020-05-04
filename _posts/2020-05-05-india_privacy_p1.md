@@ -35,9 +35,14 @@ Given the track record our governments through the years, it would be naive to b
 
 Further reading-
 
-1. Various contact tracing approaches that have been made public: [Apple | Google](https://www.apple.com/covid19/contacttracing/), [Bluetrace](https://bluetrace.io/) | [Opentrace](https://github.com/OpenTrace-Community), [MIT PACT](https://pact.mit.edu/), [TCN Coalition](https://tcn-coalition.org/), [DP-3T](https://en.wikipedia.org/wiki/Decentralized_Privacy-Preserving_Proximity_Tracing), [PEPP-PT](https://en.wikipedia.org/wiki/Pan-European_Privacy-Preserving_Proximity_Tracing)
+Various contact tracing approaches that have been made public:
 
-2. IFF's work wrt current situation: (i) https://internetfreedom.in/45-organizations-and-105-prominent-individuals-push-back-against-the-coercion-of-aarogya-setu/ (ii) https://internetfreedom.in/workers-privacy-during-covid-19/ (iii) https://internetfreedom.in/legal-notice-to-becil-for-its-tender-to-procure-employee-tracking-smartwatches-and-a-mass-surveillance-system/ (iv) https://internetfreedom.in/a-comprehensive-look-at-covid-surveillance-and-privacy-in-india/
+[Apple | Google](https://www.apple.com/covid19/contacttracing/), [Bluetrace](https://bluetrace.io/) | [Opentrace](https://github.com/OpenTrace-Community), [MIT PACT](https://pact.mit.edu/), [TCN Coalition](https://tcn-coalition.org/), [DP-3T](https://en.wikipedia.org/wiki/Decentralized_Privacy-Preserving_Proximity_Tracing), [PEPP-PT](https://en.wikipedia.org/wiki/Pan-European_Privacy-Preserving_Proximity_Tracing)
+
+
+IFF's work wrt current situation: 
+
+(i) https://internetfreedom.in/45-organizations-and-105-prominent-individuals-push-back-against-the-coercion-of-aarogya-setu/ (ii) https://internetfreedom.in/workers-privacy-during-covid-19/ (iii) https://internetfreedom.in/legal-notice-to-becil-for-its-tender-to-procure-employee-tracking-smartwatches-and-a-mass-surveillance-system/ (iv) https://internetfreedom.in/a-comprehensive-look-at-covid-surveillance-and-privacy-in-india/
 
 
 
