@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: India's Vanishing Privacy 
+title: India's Vanishing Privacy : Part 1
 tags: [Privacy]
 ---
 
@@ -23,7 +23,7 @@ Unlike most other tech being used/proposed in other countries, I could not find 
 IFF has come up with a [detailed report](https://internetfreedom.in/is-aarogya-setu-privacy-first-nope-but-it-could-be-if-the-government-wanted/) on the impact of the app on our privacy and the conclusion is not good. Here is their summary of the report but I recommend going through the whole post-
 
 
->  In today’s speech announcing the extension of India’s national lockdown till 3rd May, 2020 the country’s Prime Minister requested citizens to download the Aarogya Setu application. Unfortunately, the application remains a privacy minefield and it does not adhere to principles of minimisation, strict purpose limitation, transparency and accountability. IFF’s Working Paper, analyses the application, highlights how it is inconsistent with the right to privacy, is conceivably a risk toward a permanent system of mass surveillance, and suggests clear recommendations to arrest these risks.  
+>  *"In today’s speech announcing the extension of India’s national lockdown till 3rd May, 2020 the country’s Prime Minister requested citizens to download the Aarogya Setu application. Unfortunately, the application remains a privacy minefield and it does not adhere to principles of minimisation, strict purpose limitation, transparency and accountability. IFF’s Working Paper, analyses the application, highlights how it is inconsistent with the right to privacy, is conceivably a risk toward a permanent system of mass surveillance, and suggests clear recommendations to arrest these risks."*  
     
 If all this was not fear inducing there is more — the government has now made the app **mandatory for every private and public employee** in the country to have the app installed. The app is no longer an option for majority of the people in the country. It will be our companion for the foreseeable future. Further, there are also [reports](https://www.news18.com/news/tech/aarogya-setu-registration-will-be-mandatory-to-setup-new-phone-govt-sources-2599197.html) that the app **may become an integral part of any mobile phone that'll be sold in the country post lockdown.** It'll reportedly be pre-installed and setting it up will be part of the phone's setup process. 
 
