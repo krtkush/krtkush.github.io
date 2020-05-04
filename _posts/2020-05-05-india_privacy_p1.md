@@ -1,7 +1,8 @@
 ---
 layout: post
 comments: true
-title: Draft1
+title: India's Vanishing Privacy 
+tags: [Privacy]
 ---
 
 While COVID-19 continues to create havoc throughout the world with no end in sight, India seems to be sailing smoothly towards an Orwellian State, making good use of the crises to satisfy the government's agenda to have complete control over its citizens via their data.
@@ -13,7 +14,7 @@ As technology has advanced at a breakneck speed the Government of India, keeping
 
 Contact tracing is one of the most important tool in the arsenal of tools available to suppress the spread of COVID-19. Owing to its high R0 and ability to remain undetected for days, contact tracing is essential.
 
-It took little while for tech companies and governments to start working on a solution to automate contact tracing using mobile phones. Google and Apple have made an alliance to bake the feature into their respective operating Systems. Consortiums, like [DP-3T](https://en.wikipedia.org/wiki/Decentralized_Privacy-Preserving_Proximity_Tracing), have been set up and protocols like [PEPP-PT](https://en.wikipedia.org/wiki/Pan-European_Privacy-Preserving_Proximity_Tracing) have been established. There is still lots of back and forth and controversies surrounding the use such intrusive tech to contact trace; as it should be. 
+It took little while for tech companies and governments to start working on a solution to automate contact tracing using mobile phones. Google and Apple have made an alliance to bake the feature into their respective operating Systems. Consortiums, like [DP-3T](https://en.wikipedia.org/wiki/Decentralized_Privacy-Preserving_Proximity_Tracing), have been set up and protocols like [PEPP-PT](https://en.wikipedia.org/wiki/Pan-European_Privacy-Preserving_Proximity_Tracing) have been established. There is still lots of back and forth and controversies surrounding the use  of such intrusive tech to contact trace; as it should be. 
 
 As of now 10 countries seem to have contact tracing apps available for download. Aarogya Setu is India's answer.
 
