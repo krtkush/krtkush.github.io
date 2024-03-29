@@ -1,14 +1,11 @@
-- title: home
-  url: /
+- title: ABOUT
+  url: /about
 
-- title: about
-  url: /me
-
-- title: github
+- title: GITHUB
   url: https://github.com/krtkush
 
-- title: resume
+- title: RESUME
   url: /me/Kartikey_Kushwaha___Resume.pdf
 
-- title: atom
-  url: https://krtkush.com/feed.xml
+- title: FEED
+  url: /atom.xml

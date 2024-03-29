@@ -1,29 +1,71 @@
-# My variables
-name: Kartikey Kushwaha
-description: Thoughts and musings 
-google_verification: null
+# Site settings
+site: Krtkush
+title: Kartikey Kushwaha
+page_title: KARTIKEY KUSHWAHA
+keywords: blog, krtkush
+description: Web Log of Kartikey Kushwaha
+lang: en-US
+timezone:  Europe/Berlin
+repo: https://github.com/krtkush/krtkush.github.io # site repo [optional]
 
+# Author settings
+author:
+  name: Kartikey Kushwaha
+  bio: Writing to think and reflect.
+  picture:
+  email:
 
-# File management
-include: [".htaccess"]
-exclude: ["README.md", "LICENSE"]
+# URL settings
+url: "https:krtkush.github.io" # Domain Name of host. [username].github.io for github pages
+permalink: pretty
 
-
-# Sass
-sass:
-  style: :compressed
-  sass_dir: _sass
-
-
-# Markdown
-highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
-  hard_wrap: false
-  auto_ids: true
   syntax_highlighter: rouge
 
-# RSS
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+paginate: 30
+paginate_path: "/page/:num"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false
