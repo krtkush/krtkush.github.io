@@ -30,12 +30,14 @@ layout: default
 	{% endif %}
 </div>
 
+{% include giscus.html %}
+
 <hr>
 
 <div class="navigation">
 	{% if page.previous %}
-		<a class="prev" href="{{ page.previous | relative_url }}">&#8592; {{ page.previous.title }}</a>
+	<a class="prev" href="{{ page.previous | relative_url }}">&#8592; {{ page.previous.title }}</a>
 	{% endif %} {% if page.next %}
 	<a class="next" href="{{ page.next | relative_url }}">{{ page.next.title }} &#8594;</a>
-{% endif %}
+	{% endif %}
 </div>
