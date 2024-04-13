@@ -1,0 +1,24 @@
+---
+title: "Pixel Art #1: Joy-Cons"
+date: 2024-04-12
+author: Kartikey Kushwaha
+layout: post
+permalink: /pixel-art-joy-cons/
+categories: [Pixel Art]
+comments: false
+tags: [Pixel Art]
+---
+
+<div style="text-align: center">
+    <img alt="JoyCons" height="128" width="128" src="/assets/images/pixel-art/JoyCons.png" title="JoyCons" />
+</div>
+
+The Nintendo Switch's iconic Joy-Cons.
+
+I have re-discovered the joy of video games after decades ever since I got my hands on the OLED Switch last year. Therefore, 
+I dedicate the first pixel art post of this blog to a pair of unostentatious but astonishingly versatile Joy-Cons!
+
+Made with Aseprite.
+Original size - 64x64 pixels (As seen on the header - top right). The one below has been scaled up to 128x128 pixels.
+
+The header will always feature my latest Pixel art attempt.
