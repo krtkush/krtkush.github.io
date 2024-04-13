@@ -15,7 +15,7 @@ tags: [Pixel Art]
 
 The Nintendo Switch's iconic Joy-Cons.
 
-I have re-discovered the joy of video games after decades ever since I got my hands on the OLED Switch last year. Therefore, 
+I have re-discovered the joy of video games after decades getting my hands on the Switch last year. Therefore, 
 I dedicate the first pixel art post of this blog to a pair of unostentatious but astonishingly versatile Joy-Cons!
 
 Made with Aseprite.
