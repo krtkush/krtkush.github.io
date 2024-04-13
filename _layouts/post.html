@@ -9,11 +9,6 @@ layout: default
 
 <div class="post-header">
 	<div class="post-navigate-home">&#8249;<a href="{{ site.url }}">Home</a></div>
-	<div class="post-date">
-		{% if page.date %}
-			Posted On: {{ page.date | date: "%d.%m.%Y" }}
-		{% endif %}
-	</div>
 </div>
 
 <div class="blog-post-content">
@@ -21,9 +16,15 @@ layout: default
 	{{ content }}
 </div>
 
+<div class="posted-on-container">
+	{% if page.date %}
+		<div class="posted-on-title">Posted On: </div> {{ page.date | date: "%d.%m.%Y" }}
+	{% endif %}
+</div>
+
 <div class="tags-container">
 	{% if page.tags.size > 0 %}
-		<div class="tags-container-title">Filed Under: </div>
+		<div class="tags-container-title">Tagged Under: </div>
 		{% for tag in page.tags %}
 			<a href="{{ site.url }}/tags/#{{tag | cgi_escape}}" class="post-tag">{{tag}}</a>{% unless forloop.last %}, {% endunless %}
 		{% endfor %}

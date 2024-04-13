@@ -1,6 +1,6 @@
 ---
 title: "Pixel Art #1: Joy-Cons"
-date: 2024-04-12
+date: 2024-04-13
 author: Kartikey Kushwaha
 layout: post
 permalink: /pixel-art-joy-cons/
