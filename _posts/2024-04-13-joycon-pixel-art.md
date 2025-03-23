@@ -16,10 +16,11 @@ tags: [Pixel Art]
 
 The Nintendo Switch's iconic Joy-Cons.
 
-I have re-discovered the joy of video games after decades getting my hands on the Switch last year. Therefore, 
+I have re-discovered the joy of video games decades after getting my hands on the Switch last year. Therefore, 
 I dedicate the first pixel art post of this blog to a pair of unostentatious but astonishingly versatile Joy-Cons!
 
 Made with Aseprite.
-Original size - 64x64 pixels (As seen on the header - top right). The one below has been scaled up to 128x128 pixels.
+
+Original size - 64x64 pixels.
 
 _Note: The header will always feature my latest Pixel art attempt._
