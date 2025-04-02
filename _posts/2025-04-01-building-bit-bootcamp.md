@@ -32,12 +32,12 @@ So, here is a draft of what I have in my mind:
    7. DIY Project: _Warren's Crazy Small CPU_
 
 While this is a draft, I think it lays a good foundation for me to start exploring. 
-The approach of this bootcamp is in the order of _Theory_ -> _Play_ -> _Build_ -> _Reflect_ -> _Expand_. 
+The approach of this bootcamp is in the order of `Theory` -> `Play` -> `Build` -> `Reflect` -> `Expand`. 
 I am tempted to include history books like, _The Dream Machine by M. Mitchell Waldrop_, to provide context 
 or to glue everything together. But I am not completely sold on it yet. The _Crash Course Computer Science_ playlist 
 already kind of does it in a more laid-back manner. 
 
-As I progress through the content mentioned above, I'll update the bootcamp approach with subsequent posts.  
+As I progress through the content mentioned above, I'll update the bootcamp approach with subsequent posts.
 
 
 
