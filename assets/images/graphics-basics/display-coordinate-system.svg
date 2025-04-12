@@ -1,0 +1,64 @@
+<svg width="350" height="350" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg" font-size="0.5">
+    <style>
+        .grid { stroke: #ccc; stroke-width: 0.02; }
+        .axis { stroke: black; stroke-width: 0.1; }
+        .label { fill: black; font-family: sans-serif; }
+        .origin { fill: red; }
+
+        @media (prefers-color-scheme: dark) {
+        .grid { stroke: #444; }
+        .axis { stroke: white; }
+        .label { fill: white; }
+        .origin { fill: orange; }
+        }
+    </style>
+
+    <!-- Grid lines -->
+    <g class="grid">
+        <!-- Vertical lines -->
+        <line x1="1" y1="0" x2="1" y2="10"/>
+        <line x1="2" y1="0" x2="2" y2="10"/>
+        <line x1="3" y1="0" x2="3" y2="10"/>
+        <line x1="4" y1="0" x2="4" y2="10"/>
+        <line x1="5" y1="0" x2="5" y2="10"/>
+        <line x1="6" y1="0" x2="6" y2="10"/>
+        <line x1="7" y1="0" x2="7" y2="10"/>
+        <line x1="8" y1="0" x2="8" y2="10"/>
+        <line x1="9" y1="0" x2="9" y2="10"/>
+
+        <!-- Horizontal lines -->
+        <line x1="0" y1="1" x2="10" y2="1"/>
+        <line x1="0" y1="2" x2="10" y2="2"/>
+        <line x1="0" y1="3" x2="10" y2="3"/>
+        <line x1="0" y1="4" x2="10" y2="4"/>
+        <line x1="0" y1="5" x2="10" y2="5"/>
+        <line x1="0" y1="6" x2="10" y2="6"/>
+        <line x1="0" y1="7" x2="10" y2="7"/>
+        <line x1="0" y1="8" x2="10" y2="8"/>
+        <line x1="0" y1="9" x2="10" y2="9"/>
+    </g>
+
+    <!-- Axes -->
+    <line x1="0" y1="0" x2="10" y2="0" class="axis"/> <!-- Top horizontal -->
+    <line x1="0" y1="0" x2="0" y2="10" class="axis"/> <!-- Left vertical -->
+
+    <!-- X-axis labels -->
+    <g text-anchor="middle" dominant-baseline="hanging" class="label">
+        <text x="5" y="0.2">5</text>
+        <text x="10" y="0.2">10</text>
+    </g>
+
+    <!-- Y-axis labels -->
+    <g text-anchor="start" dominant-baseline="middle" class="label">
+        <text x="0.2" y="10">10</text>
+        <text x="0.2" y="5">5</text>
+    </g>
+
+    <!-- Origin -->
+    <circle cx="0" cy="0" r="0.2" class="origin"/>
+
+    <!-- Labels -->
+    <g class="label" text-anchor="start" dominant-baseline="hanging">
+        <text x="0.1" y="0.1">(0,0)</text>
+    </g>
+</svg>

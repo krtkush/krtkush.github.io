@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/_drafts/_drafts.iml" filepath="$PROJECT_DIR$/_drafts/_drafts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/krtkush.github.io.iml" filepath="$PROJECT_DIR$/.idea/krtkush.github.io.iml" />
     </modules>
   </component>

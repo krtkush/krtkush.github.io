@@ -1,0 +1,94 @@
+<svg width="400" height="400" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" font-size="0.5">
+    <style>
+        .grid { stroke: #ccc; stroke-width: 0.02; }
+        .axis { stroke: black; stroke-width: 0.1; }
+        .arrow { stroke: blue; stroke-width: 0.1; marker-end: url(#arrowhead); }
+        .label { fill: black; font-family: sans-serif; }
+        .origin { fill: red; }
+        .star { fill: none; stroke: crimson; stroke-width: 0.08; }
+
+        @media (prefers-color-scheme: dark) {
+        .grid { stroke: #444; }
+        .axis { stroke: white; }
+        .arrow { stroke: #4cf; }
+        .label { fill: white; }
+        .origin { fill: orange; }
+        .star { stroke: gold; }
+        }
+    </style>
+
+    <!-- Arrowhead definition -->
+    <defs>
+        <marker id="arrowhead" markerWidth="4" markerHeight="4" refX="0.5" refY="1.5"
+                orient="auto" markerUnits="strokeWidth">
+            <polygon points="0 0, 2 1.5, 0 3" fill="blue"/>
+        </marker>
+    </defs>
+
+    <!-- Grid -->
+    <g class="grid">
+        <!-- Vertical lines -->
+        <line x1="1" y1="0" x2="1" y2="10"/>
+        <line x1="2" y1="0" x2="2" y2="10"/>
+        <line x1="3" y1="0" x2="3" y2="10"/>
+        <line x1="4" y1="0" x2="4" y2="10"/>
+        <line x1="5" y1="0" x2="5" y2="10"/>
+        <line x1="6" y1="0" x2="6" y2="10"/>
+        <line x1="7" y1="0" x2="7" y2="10"/>
+        <line x1="8" y1="0" x2="8" y2="10"/>
+        <line x1="9" y1="0" x2="9" y2="10"/>
+        <!-- Horizontal lines -->
+        <line x1="0" y1="1" x2="10" y2="1"/>
+        <line x1="0" y1="2" x2="10" y2="2"/>
+        <line x1="0" y1="3" x2="10" y2="3"/>
+        <line x1="0" y1="4" x2="10" y2="4"/>
+        <line x1="0" y1="5" x2="10" y2="5"/>
+        <line x1="0" y1="6" x2="10" y2="6"/>
+        <line x1="0" y1="7" x2="10" y2="7"/>
+        <line x1="0" y1="8" x2="10" y2="8"/>
+        <line x1="0" y1="9" x2="10" y2="9"/>
+    </g>
+
+    <!-- Axes -->
+    <line x1="0" y1="5" x2="10" y2="5" class="axis"/>
+    <line x1="5" y1="0" x2="5" y2="10" class="axis"/>
+
+    <!-- Origin -->
+    <circle cx="5" cy="5" r="0.1" class="origin"/>
+
+    <!-- Arrows for angles -->
+    <line x1="5" y1="5" x2="6.5" y2="5" class="arrow"/> <!-- 0° -->
+    <line x1="5" y1="5" x2="5" y2="6.5" class="arrow"/> <!-- 90° -->
+    <line x1="5" y1="5" x2="3.5" y2="5" class="arrow"/> <!-- 180° -->
+    <line x1="5" y1="5" x2="5" y2="3.5" class="arrow"/> <!-- 270° -->
+
+    <!-- Angle Labels -->
+    <g class="label" text-anchor="middle">
+        <text x="6.6" y="4.8">0° (Right)</text>
+        <text x="5.4" y="6.8">90° (Down)</text>
+        <text x="3" y="4.8">180° (Left)</text>
+        <text x="5" y="3.3">270° (Up)</text>
+    </g>
+
+    <!-- Star points starting at 0°, drawn clockwise -->
+    <polygon class="star" points="
+    6.0000,5.0000
+    5.3236,5.2351
+    5.3090,5.9511
+    4.8764,5.3804
+    4.1910,5.5878
+    4.6000,5.0000
+    4.1910,4.4122
+    4.8764,4.6196
+    5.3090,4.0489
+    5.3236,4.7649
+    " />
+
+    <!-- Origin -->
+    <circle cx="0" cy="0" r="0.2" class="origin"/>
+
+    <!-- Labels -->
+    <g class="label" text-anchor="start" dominant-baseline="hanging">
+        <text x="0.1" y="0.1">(0,0)</text>
+    </g>
+</svg>
