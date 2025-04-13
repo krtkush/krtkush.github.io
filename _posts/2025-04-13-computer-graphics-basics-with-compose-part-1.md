@@ -258,6 +258,17 @@ irrespective of the number of vertices.
 With this knowledge in our mind now, the fix for the crookedness by simply rotating the position of the 
 first vertice by -90 degrees. This will make sure that the first vertice is always in the 12 O'clock position.
 
+<div style="text-align: center;">
+  <img 
+    alt="Star rotation illustration" 
+    height="200" 
+    width="200" 
+    src="../assets/images/graphics-basics/star-rotation.svg" 
+    title="Star rotation illustration"
+    style="border: 2px solid #ccc; border-radius: 12px; padding: 4px;"
+  />
+</div>
+
 {% highlight Kotlin %}
 
 ..
@@ -284,7 +295,7 @@ Canvas(modifier = modifier.size(sizeDp)) {
 {% endhighlight %}
 
 `pivot = Offset(0f, 0f)` here means that we want to rotate around the new origin, which is the center of the canvas. 
-Do not get confused with the origin of the canvas-the actual (0,0) on the top-left. 
+Do not get confused with the origin of the canvas-the actual (0,0) on the top-left.
 
 Final Output:
 
