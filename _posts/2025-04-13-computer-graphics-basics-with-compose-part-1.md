@@ -301,7 +301,8 @@ Final Output:
 
 Success!
 
-One more thing-for clarity, here is the highlighted `innerRadius` and `outerRadius` in green and red respectively.  
+One more thing-for clarity, here is the highlighted `innerRadius` and `outerRadius` in green and red respectively. 
+This helps us visualize how the star is drawn by the `RoundedPolygon.star()` function.
 
 <div style="text-align: center;">
    <img
