@@ -47,7 +47,7 @@ First, let's understand our canvas on which we will be drawing all our shapes, a
 Think of it as a graph paper used to represent a Cartesian Plane. However, unlike the high school Cartesian Plane
 which we are used to, a computer's origin `(0,0)` does not lie in the center of the canvas. But in the top left corner.
 This is true for all computers we encounter in our daily life. Plus, the X coordinate increases to the right,
-and Y increase going down. There might be some exceptions, but we
+and Y increases going down. There might be some exceptions, but we
 do not have to be concerned about those. This coordinate system is called the **Display Coordinate System** while the more
 typical one is called **Cartesian Coordinate System**.
 
@@ -70,11 +70,18 @@ both the coordinate systems, but the 90 and 270 degree directions are flipped.
     <figcaption>Figure 2: Display Coordinate System</figcaption>
   </figure>
 
+<figure style="border: 2px solid #ccc; border-radius: 12px; padding: 10px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+    <picture>
+      <img src="../assets/images/graphics-basics/cartesian-coordinate-system-angles.svg" alt="Cartesian Coordinate System Angles">
+    </picture>
+    <figcaption>Figure 3: Angles in CCS</figcaption>
+  </figure>
+
   <figure style="border: 2px solid #ccc; border-radius: 12px; padding: 10px; text-align: center; display: flex; flex-direction: column; align-items: center;">
     <picture>
       <img src="../assets/images/graphics-basics/display-coordinate-system-angles.svg" alt="Display Coordinate System Angles">
     </picture>
-    <figcaption>Figure 3: Angles in Display Coordinate System</figcaption>
+    <figcaption>Figure 4: Angles in DCS</figcaption>
   </figure>
 </div>
 
@@ -234,7 +241,7 @@ If we experiment with the number of vertices, the crookedness remains for a majo
   />
 </div>
 
-The reason for the stars being tilted can be derived from Figure 3.
+The reason for the stars being tilted can be derived from Figure 4.
 
 If you are like me, you would assume, intuitively, that the system starts drawing from the top (12 O'clock position). 
 However, that is incorrect. The system actually starts drawing from angle 0 (this is where the first vertice is positioned) 
