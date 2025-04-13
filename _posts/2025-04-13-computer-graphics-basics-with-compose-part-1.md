@@ -215,15 +215,15 @@ Canvas(modifier = modifier.size(sizeDp)) {
 
 Output:
 
-<div style="text-align: center;">
-  <img 
-    alt="Star in center of canvas" 
-    height="200" 
-    width="200" 
-    src="../assets/images/graphics-basics/star-canvas-center.webp" 
-    title="Star in center of canvas"
-    style="border: 2px solid #ccc; border-radius: 12px; padding: 4px;"
-  />
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+   <img 
+      alt="Star in center of canvas" 
+      height="200" 
+      width="200" 
+      src="../assets/images/graphics-basics/star-canvas-center.webp" 
+      title="Star in center of canvas"
+      style="border: 2px solid #ccc; border-radius: 12px; padding: 4px;"
+   />
 </div>
 
 This looks good. However, the star is a bit crooked—the top most vertice is tilted a bit towards the right.
@@ -300,6 +300,19 @@ Final Output:
 </div>
 
 Success!
+
+One more thing-for clarity, here is the highlighted `innerRadius` and `outerRadius` in green and red respectively.  
+
+<div style="text-align: center;">
+   <img
+      alt="Star with radius highlight"
+      height="200"
+      width="200"
+      src="../assets/images/graphics-basics/star-with-radius-highlight.webp"
+      title="Non crooked star"
+      style="border: 2px solid #ccc; border-radius: 12px; padding: 4px;"
+   />
+</div>
 
 With this, I conclude with my introduction to the computer's display system and how it draws on a screen/ canvas.
 
