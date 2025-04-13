@@ -95,9 +95,9 @@ We need the following information to draw the star, the icons on the vertices an
 {% highlight Kotlin %}
 
 data class ArrowData(
-val fromTo: Pair<Int, Int>,
-val thickness: Float = 7f,
-val colorPair: Pair<Int, Int> = 0xFF888888.toInt() to 0xFF000000.toInt(),
+   val fromTo: Pair<Int, Int>,
+   val thickness: Float = 7f,
+   val colorPair: Pair<Int, Int> = 0xFF888888.toInt() to 0xFF000000.toInt(),
 )
 
 {% endhighlight %}
@@ -107,9 +107,9 @@ val colorPair: Pair<Int, Int> = 0xFF888888.toInt() to 0xFF000000.toInt(),
 {% highlight Kotlin %}
 
 data class IconData(
-val icon: ByteArray,
-val primaryText: String,
-val secondaryText: String = "",
+   val icon: ByteArray,
+   val primaryText: String,
+   val secondaryText: String = "",
 ) { .. }
 
 {% endhighlight %}
@@ -255,18 +255,24 @@ title="Star over Display System" style="border: 2px solid #ccc; border-radius: 1
 This is the reason why the right most vertice of our star is always aligned to the 3 O'clock position, 
 irrespective of the number of vertices.
 
-With this knowledge in our mind now, the fix for the crookedness by simply rotating the position of the 
-first vertice by -90 degrees. This will make sure that the first vertice is always in the 12 O'clock position.
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 16px;">
+  <div style="flex: 1;">
+    <p>
+      With this knowledge in our mind now, the fix for the crookedness is to simply rotate the position of the 
+      first vertice by -90 degrees. This will make sure that the first vertice is always in the 12 O'clock position.
+    </p>
+  </div>
 
-<div style="text-align: center;">
-  <img 
-    alt="Star rotation illustration" 
-    height="200" 
-    width="200" 
-    src="../assets/images/graphics-basics/star-rotation.svg" 
-    title="Star rotation illustration"
-    style="border: 2px solid #ccc; border-radius: 12px; padding: 4px;"
-  />
+  <div style="flex-shrink: 0; text-align: right;">
+    <img 
+      alt="Star rotation illustration" 
+      height="200" 
+      width="200" 
+      src="../assets/images/graphics-basics/star-rotation.svg" 
+      title="Star rotation illustration"
+      style="border: 2px solid #ccc; border-radius: 12px; padding: 4px;"
+    />
+  </div>
 </div>
 
 {% highlight Kotlin %}
