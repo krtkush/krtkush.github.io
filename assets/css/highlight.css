@@ -197,7 +197,9 @@
   color: #f92672;
 }
 
-/* GitHub-like Rouge Syntax Highlighting */
+/* ------------------------------------------
+   LIGHT THEME (Default)
+------------------------------------------ */
 .highlight {
   background: #fdfdfd;
   padding: 1em;
@@ -280,16 +282,17 @@
   background-color: #e3d2d2;
 }
 
-/* Inline code */
-code {
+/* Inline code (light theme) */
+:not(pre) > code {
   background-color: #f6f8fa;
+  color: #24292e;
   padding: 2px 4px;
   font-family: monospace;
   border-radius: 4px;
   font-size: 0.75em;
 }
 
-/* Code block styling */
+/* Code block */
 pre code {
   display: block;
   padding: 1em;
@@ -297,4 +300,104 @@ pre code {
   background-color: #f6f8fa;
   border-radius: 6px;
   font-size: 1em;
+}
+
+/* Inline code inside a link */
+a > code {
+  color: inherit;
+}
+
+/* ------------------------------------------
+   DARK THEME (Auto via prefers-color-scheme)
+------------------------------------------ */
+@media (prefers-color-scheme: dark) {
+  .highlight {
+    background: #1e1e1e;
+  }
+
+  .highlight pre {
+    background: transparent;
+  }
+
+  /* Comments */
+  .highlight .c,
+  .highlight .cm {
+    color: #6a9955;
+  }
+
+  /* Keywords and Operators */
+  .highlight .k,
+  .highlight .o,
+  .highlight .kd {
+    color: #c586c0;
+  }
+
+  /* Strings */
+  .highlight .s {
+    color: #ce9178;
+  }
+
+  /* Numbers */
+  .highlight .mi,
+  .highlight .mf,
+  .highlight .mh,
+  .highlight .mb,
+  .highlight .mo {
+    color: #b5cea8;
+  }
+
+  /* Punctuation */
+  .highlight .p {
+    color: #d4d4d4;
+  }
+
+  /* Names and Identifiers */
+  .highlight .n,
+  .highlight .nv,
+  .highlight .na,
+  .highlight .nb,
+  .highlight .no,
+  .highlight .nc,
+  .highlight .py {
+    color: #9cdcfe;
+    background: transparent;
+  }
+
+  .highlight .nc {
+    font-weight: bold;
+  }
+
+  .highlight .nf {
+    color: #dcdcaa;
+  }
+
+  .highlight .no {
+    color: #4ec9b0;
+  }
+
+  .highlight .err {
+    color: #f44747;
+    background-color: #2a1a1a;
+  }
+
+  /* Inline code */
+  :not(pre) > code {
+    background-color: #404b61;
+    color: #d4d4d4;
+    padding: 2px 4px;
+    font-family: monospace;
+    border-radius: 4px;
+    font-size: 0.75em;
+  }
+
+  /* Code block */
+  pre code {
+    background-color: #282e3c;
+    color: #d4d4d4;
+  }
+
+  /* Inline code inside a link */
+  a > code {
+    color: inherit;
+  }
 }
