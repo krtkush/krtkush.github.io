@@ -84,7 +84,7 @@ Later in the evening, we headed to [Momo Ramen](https://www.momo-ramen.de) for o
 </div>
 
 Next day we headed back home and thankfully managed to get a seat to sit on the train. 
-I will definitely return to Hamburg again in the future and explore all the places I could not.  
+I will definitely return to Hamburg in the future and explore all the places I could not.  
 
 <!-- Modal for full-size image -->
 <div id="imageModal" class="modal" onclick="closeModal()">

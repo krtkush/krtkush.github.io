@@ -3,7 +3,7 @@ title: "Exploring some basics of computer graphics with Compose Canvas - Part 1"
 date: 2025-04-13
 author: Kartikey Kushwaha
 layout: post
-permalink: /computer-graphics-basics-with-compose/
+permalink: /computer-graphics-basics-with-compose-part-1/
 categories: [Tutorial]
 comments: true
 tags: [Computer Science, Graphics]
