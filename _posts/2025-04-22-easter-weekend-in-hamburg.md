@@ -26,24 +26,25 @@ to observe the port cranes and vehicles function like clockwork from distance. F
 neapolitan pizza at [Spaccaforno](https://spaccaforno.de/) before heading back to our hotel.
 
 <div class="masonry-gallery">
-  <img src="/assets/images/easter-hamburg/day1&2/001.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/002.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/003.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/004.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/005.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/006.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/007.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/008.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/009.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/010.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/011.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/012.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/013.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/014.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/015.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/016.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day1&2/017.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/001.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/002.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/003.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/004.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/005.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/006.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/007.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/008.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/009.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/010.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/011.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/012.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/013.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/014.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/015.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/016.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day1%262/017.png" onclick="openModal(this)">
 </div>
+
 
 <h3>Day 3</h3>
 
@@ -55,32 +56,32 @@ I would love to go for a run. We basked in the sun for a few hours and observed 
 Later in the evening, we headed to [Momo Ramen](https://www.momo-ramen.de) for one of the most comforting ramen I have ever had.    
 
 <div class="masonry-gallery">
-  <img src="/assets/images/easter-hamburg/day3/1.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/2.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/3.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/4.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/5.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/6.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/7.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/8.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/9.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/10.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/11.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/12.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/13.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/14.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/15.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/16.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/17.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/18.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/19.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/20.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/21.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/22.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/23.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/24.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/25.png" onclick="openModal(this)">
-  <img src="/assets/images/easter-hamburg/day3/26.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/1.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/2.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/3.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/4.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/5.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/6.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/7.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/8.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/9.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/10.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/11.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/12.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/13.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/14.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/15.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/16.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/17.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/18.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/19.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/20.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/21.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/22.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/23.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/24.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/25.png" onclick="openModal(this)">
+  <img src="https://images.krtkush.com/easter-hamburg/day3/26.png" onclick="openModal(this)">
 </div>
 
 Next day we headed back home and thankfully managed to get a seat to sit on the train. 
