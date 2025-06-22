@@ -1,6 +1,6 @@
 ---
 title: "Exploring some basics of computer graphics with Compose Canvas - Part 2"
-date: 2025-06-09
+date: 2025-06-22
 author: Kartikey Kushwaha
 layout: post
 permalink: /computer-graphics-basics-with-compose-part-2/
