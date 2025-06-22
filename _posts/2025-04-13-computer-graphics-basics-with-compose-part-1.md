@@ -334,4 +334,4 @@ This helps us visualize how the star is drawn by the `RoundedPolygon.star()` fun
 
 With this, I conclude with my introduction to the computer's display system and how it draws on a screen/ canvas.
 
-In part II, we will draw the icons on the outer edges of the star. And finally, make the star smooth and rounded. 
+In part 2, we will draw the icons on the outer edges of the star. And finally, make the star smooth and rounded. 
