@@ -80,7 +80,7 @@ Here is a visual context of our star's transformation -
   />
 </div>
 
-## Draw icons
+## Draw Icons
 
 Drawing icons is a bit more complicated thanks to the very `graphics-shapes` library that simplified drawing the star for us.
 This is because the `RoundedPolygon.star()` function does not provide the positions
@@ -174,7 +174,7 @@ Do recall from Part 1 that drawing and calculations start from 3 O'Clock positio
 </div>
 
 Now that we have the angle, the radius and the center of our star, we can find the co-ordinates of the vertices by converting
-[Polar into Cartesian co-ordinates](https://www.mathsisfun.com/polar-cartesian-coordinates.html). We simply use this formula - 
+[Polar into Cartesian co-ordinates](https://www.mathsisfun.com/polar-cartesian-coordinates.html). We simply use this formula -
 
 `X = centerX + cos(angle) * radius` and `Y = centerY + sin(angle) * radius`
 
