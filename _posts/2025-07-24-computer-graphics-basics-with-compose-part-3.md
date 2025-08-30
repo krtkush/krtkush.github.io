@@ -10,7 +10,7 @@ mathjax: true
 tags: [Computer Science, Graphics]
 ---
 
-In this final part of the series, we will draw the arrows between our vertices to signify the direction and quantity of flow.
+In this part of the series, we will draw the arrows between our vertices to signify the direction and quantity of flow.
 
 In part 3, we will be doing the following:
 
