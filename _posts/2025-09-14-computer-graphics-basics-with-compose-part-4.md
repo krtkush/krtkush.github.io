@@ -170,7 +170,8 @@ val p0Y = end.y + (arrowLength * 0.5f) * sin(angle)
 
 We have to convert Polar to Cartesian before we can add the offset to `end`. With this, we now have `P0`.
 
-Next, we find `B`. Once we have `B`, we move 90 degrees to both directions from this `B` to a certain length. 
+Next, we find `B`. We do that by moving back from `P0` by a distance of `arrowLength`.
+Once we have `B`, we move 90 degrees to both directions from this `B` to a certain length. 
 This certain length can be equal to `arrowLength`/`L` and later adjusted by a factor of `x` to meet your visual requirements. 
 At the end of this length, we have `P1` and `P2`. 
 
