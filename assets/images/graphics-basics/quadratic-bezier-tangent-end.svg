@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Quadratic Bézier and Tangent at the End (t = 1)</title>
+  <desc id="desc">Curve with control polygon P0, P1, P2 and the tangent drawn at the end point P2.</desc>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --fg: #111111;
+      --muted: #6b7280;
+      --accent: #1f2937;
+      --curve: #d97706;
+      --bg: transparent;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fg: #e5e7eb;
+        --muted: #9ca3af;
+        --accent: #d1d5db;
+        --curve: #f59e0b;
+        --bg: transparent;
+      }
+    }
+    text { fill: var(--fg); font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    .control { stroke: var(--muted); stroke-width: 1.5; fill: none; stroke-dasharray: 6 6; }
+    .curve { stroke: var(--curve); stroke-width: 3; fill: none; }
+    .point { fill: var(--bg); stroke: var(--accent); stroke-width: 1.5; }
+    .tangent { stroke: var(--accent); stroke-width: 2; fill: none; }
+    .arrowhead { fill: var(--accent); }
+  </style>
+
+  <!-- Title text -->
+  <text x="40" y="32" font-size="18">Quadratic Bézier and Tangent at the End (t = 1)</text>
+
+  <!-- Control polygon and points -->
+  <polyline class="control" points="40.0,380.0 200.0,150.00000000000003 440.0,300.0"/>
+  <circle class="point" cx="40.0" cy="380.0" r="4"/><text x="46.0" y="374.0" font-size="12">P0</text>
+  <circle class="point" cx="200.0" cy="150.00000000000003" r="4"/><text x="206.0" y="144.00000000000003" font-size="12">P1</text>
+  <circle class="point" cx="440.0" cy="300.0" r="4"/><text x="446.0" y="294.0" font-size="12">P2</text>
+
+  <!-- Bézier curve path: Q -->
+  <path class="curve" d="M 40.00,380.00 Q 200.00,150.00 440.00,300.00"/>
+
+  <!-- Tangent -->
+  <line class="tangent" x1="440.0" y1="300.0" x2="507.83986432040706" y2="342.3999152002544"/>
+  <polygon class="arrowhead" points="507.83986432040706,342.3999152002544 495.5438889123333,339.43192113623655 499.7838804323587,332.64793470419585"/>
+  <text x="519.8398643204071" y="346.3999152002544" font-size="12">Tangent at end (t = 1)</text>
+</svg>
