@@ -170,10 +170,10 @@ val p0Y = end.y + (arrowLength * 0.5f) * sin(angle)
 
 We have to convert Polar to Cartesian before we can add the offset to `end`. With this, we now have `P0`.
 
-Next, we find `B`. We do that by moving back from `P0` by a distance of `arrowLength`.
+Next, we find `B`. We do that by moving back from `P0` by the distance of `arrowLength`/`L`.
 Once we have `B`, we move 90 degrees to both directions from this `B` to a certain length. 
 This certain length can be equal to `arrowLength`/`L` and later adjusted by a factor of `x` to meet your visual requirements. 
-At the end of this length, we have `P1` and `P2`. 
+At the end of this length in each direction, we have `P1` and `P2`. 
 
 We implement this approach in the function we have been working on (Comments added by ChatGPT).
 
@@ -247,5 +247,7 @@ private fun DrawScope.drawClosedArrowhead(
 </div>
 
 With this, we have achieved our objective of drawing a "Flow Graph" which represents the flow of X from point A to B.
-However, there is still an issue with our rounded star drawing being depended on Compose's graphics lib. 
-We will fix that in the next post by drawing the star from scratch and removing our dependency on the library.   
+However, there is still an issue with our rounded star drawing being depended on Compose's graphics lib.
+For example, if we want to implement this same graph for iOS, we will have trouble finding an equivalent native library.
+
+We will remove this dependency in the next post by drawing the star from scratch with some more help of Bézier Cure.    
