@@ -16,7 +16,7 @@ author:
   email:
 
 # URL settings
-url: "https://krtkush.com" # Domain Name of host. [username].github.io for github pages
+url: "https://www.krtkush.com" # Domain Name of host. [username].github.io for github pages
 permalink: pretty
 
 markdown: kramdown
