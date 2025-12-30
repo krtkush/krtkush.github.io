@@ -21,7 +21,7 @@ And then, the computers at home were never good enough to run any latest games. 
 Despite the discouragement, my early memories of computers are mostly about playing games. _Wolf 3D, Dave, Bio Menace,
 Return to Castle Wolfenstein, Quake, Roller Coaster Tycoon, Age of Empires_ and _Counter Strike_ are 
 some of the ones I fondly remember. Hell, my parents gifted me a knock-off Video Game console for one of my birthdays. 
-It was called Polystation[1]! When I hit my teens, Macromedia Flash caught my attention, 
+It was called [Polystation](https://youtu.be/V2gK7Wp63nE?si=-1QG52uL8umaLm77)! When I hit my teens, Macromedia Flash caught my attention, 
 and then most of my time was spent making animations, websites or reading (and trying to maintain my own) blogs.
 
 Eventually, I started reading computer magazines like _Digit, Chip and SKOAR!_, which had tons of gaming content. 
@@ -43,8 +43,5 @@ existed in India—even now.
 
 In a way, I am glad that I played a few video games as a child. 
 Getting into them now makes technology fun again when otherwise most things in tech seem
-to be either reparative or even depressing dystopian.  
-
-
-[1] [https://youtu.be/V2gK7Wp63nE?si=-1QG52uL8umaLm77](https://youtu.be/V2gK7Wp63nE?si=-1QG52uL8umaLm77)
+to be either reparative or even depressing dystopian.
 

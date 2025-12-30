@@ -3,7 +3,7 @@
         {% for item in site.data.navigation %}
         <li>
             <a href="{{ item.url }}">{{ item.title }}</a>
-            {% if forloop.last == false %} &#124; {% endif %}
+            {% if forloop.last == false %} &nbsp; {% endif %}
         </li>
         {% endfor %}
     </ul>
