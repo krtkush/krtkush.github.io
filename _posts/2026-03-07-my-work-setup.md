@@ -3,7 +3,7 @@ title: "My Home Office Setup"
 date: 2026-03-07
 author: Kartikey Kushwaha
 layout: post
-permalink: /work-setup/
+permalink: /home-office-setup/
 categories: [Setup]
 comments: true
 mathjax: false
