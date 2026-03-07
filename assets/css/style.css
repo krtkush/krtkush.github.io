@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css?family=Hack');
 :root {
     --bg-color: #fafafa;
@@ -63,7 +62,7 @@
 
 body{
   font-family: "EB Garamond", serif;
-  font-weight: 300;
+  font-weight: 400;
   background: var(--body-bg);
   color: var(--primary-font-color);
   margin: 0;
@@ -229,7 +228,8 @@ body{
 
 .blog-post-content{
   width: 100%;
-  font-size: 22px;
+  font-size: 1.2rem;
+  line-height: 1.4;
   & a {
     color: var(--link-colour);
   }
@@ -365,7 +365,7 @@ blockquote {
 
 @media (min-width: 1200px){
   .container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 800px;
+    max-width: 700px;
   }
 }
 
