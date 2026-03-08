@@ -12,7 +12,7 @@ tags: [Setup]
 
 <div style="text-align: center;">
   <img
-    alt="Setup Layout"
+    alt="Setup"
     height="400"
     width="700"
     src="../assets/images/work-setup/frontal.jpg"
@@ -28,7 +28,7 @@ way to solve them.
 
 <div style="text-align: center;">
   <img
-    alt="Setup Layout"
+    alt="Setup"
     height="400"
     width="700"
     src="../assets/images/work-setup/setup-map.png"
@@ -60,7 +60,7 @@ travel/ portable monitors.
 
 <div style="text-align: center;">
   <img
-    alt="Setup Layout"
+    alt="Setup"
     height="700"
     width="600"
     src="../assets/images/work-setup/display.jpg"
@@ -86,7 +86,7 @@ However, since I use 2560 x 1440 resolution and not full 5k, the visual experien
 
 <div style="text-align: center;">
   <img
-    alt="Setup Layout"
+    alt="Setup"
     height="500"
     width="700"
     src="../assets/images/work-setup/inputs.jpg"
@@ -124,7 +124,7 @@ like a bond villain.
 
 <div style="text-align: center;">
   <img
-    alt="Setup Layout"
+    alt="Setup"
     height="300"
     width="200"
     src="../assets/images/work-setup/touchid.jpg"
@@ -151,7 +151,7 @@ but I will save that for another post.
 
 <div style="text-align: center;">
   <img
-    alt="Setup Layout"
+    alt="Setup"
     height="700"
     width="400"
     src="../assets/images/work-setup/audio.jpg"
@@ -159,7 +159,7 @@ but I will save that for another post.
   />
 
   <img
-    alt="Setup Layout"
+    alt="Setup"
     height="600"
     width="450"
     src="../assets/images/work-setup/m21.jpg"
@@ -169,3 +169,15 @@ but I will save that for another post.
 
 And that is it! Somehow writing it all down does not make it seem a lot, but it did involve a lot of trial & error 
 and money. 
+
+The setup at night -
+
+<div style="text-align: center;">
+  <img
+    alt="Setup"
+    height="400"
+    width="700"
+    src="../assets/images/work-setup/night-frontal.jpg"
+    style="border: 2px solid #ccc; border-radius: 6px; padding: 4px;"
+  />
+</div>
