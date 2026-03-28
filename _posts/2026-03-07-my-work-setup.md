@@ -78,7 +78,7 @@ an HDMI switch, which needs to be toggled with its own remote.
 Another important thing to mention is the excellent audio quality of the Studio Display. I have no need to plug in a
 pair of external speakers but easily rely on the display's speaker to deliver some seriously good audio. 
 
-Note: The Cable matters switch is not a Thunderbolt switch since it supports only half of Thunderbolt 4 capacity
+**Note:** The Cable matters switch is not a Thunderbolt switch since it supports only half of Thunderbolt 4 capacity
 (20 Gbps vs 40 Gbps). It is still able to support 5k on my Studio Display while it drops to 4k for the MBP.
 However, since I use 2560 x 1440 resolution and not full 5k, the visual experience remains the same for my use cases.
 

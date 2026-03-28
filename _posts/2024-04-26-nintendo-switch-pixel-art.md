@@ -1,5 +1,5 @@
 ---
-title: "Pixel Art #2: Switch"
+title: "Pixel Art #2: Nintendo Switch"
 date: 2024-04-26
 author: Kartikey Kushwaha
 layout: post

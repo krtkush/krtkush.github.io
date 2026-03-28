@@ -30,18 +30,18 @@ the rise of the GPUs. Then there was the exciting possibility of PPUs, the revol
 _PlayStation 3_ and _XBox 360_. And of course, the insane looking hardware from _Alienware_. Game reviews were fun to read, 
 and getting into the lore of games like _Half Life_ was thrilling.
 
-As I got older, and magazines stop becoming a thing, I got more interested in programming and other things tech. 
-Until two years back when my wife gifted me a _Nintendo Switch_ and then a year later, I bought the _Steam Deck_. 
+As I got older, and magazines stopped becoming a thing, I got more interested in programming and other things tech,  
+until two years back when my wife gifted me a _Nintendo Switch_ and then a year later, I bought the _Steam Deck_. 
 The fact that I never played many video games as a child made me experience a lot of things for the first time. 
 _Zelda BOTW_ gave me a sense of wonder that I had not felt for a very long time,
-and the _Doom (2016 and eternal)_ made me feel like an unstoppable force. _Alien Isolation_ introduced another world of gaming to me altogether 
+and _Doom (2016 and eternal)_ made me feel like an unstoppable force. _Alien Isolation_ introduced another world of gaming to me altogether 
 which I can't wait to delve into again. But the most joy comes from playing games that I had mostly just read
 about as a child. Playing _Half Life_ and _Black Mesa_ on the Deck seemed like the right thing to do
-and the right way to experience them. The act felt like a homage to Valve. And while the Switch is not being used 
+and the right way to experience them. The act felt like an homage to Valve. And while the Switch is not being used 
 as much as before, I can't wait to play some OG Nintendo titles on it because Nintendo never officially 
 existed in India—even now.  
 
-In a way, I am glad that I played a few video games as a child. 
+In a way, I am glad that I played really few video games as a child. 
 Getting into them now makes technology fun again when otherwise most things in tech seem
-to be either reparative or even depressing dystopian.
+to be either repetitive or depressingly dystopian.
 
