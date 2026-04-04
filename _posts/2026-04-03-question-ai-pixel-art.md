@@ -23,8 +23,8 @@ it clicked! His "Think for yourself and question authority" quote can be perfect
 
 AI is eating the world and people are rightfully skeptical about it. I personally, don't want it to do the thinking for me.
 Help me augment it? Sure. But not replace it so that I am open to manipulation while my thinking and rationalizing 
-abilities get degraded. Hence, the warning - **Think yourself. Question the AI.** It is a bit over the top and cyberpunk 
-like, but I was going for exactly that. 
+abilities get degraded. Hence, the warning - **Think for yourself. Question the AI.** It is a bit over the top and cyberpunk 
+like, but I was going for exactly that. I specially enjoyed creating the font by hand.
 
 The image above is upscaled from the last frame of the animation for better visibility, but the original is down below - 
 
