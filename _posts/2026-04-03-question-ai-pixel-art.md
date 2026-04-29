@@ -11,7 +11,7 @@ tags: [Pixel Art]
 
 <div style="text-align: center">
     <img alt="Think for yourself. Question the AI." 
-        height="92" width="264" src="/assets/images/pixel-art/QuestionAIUpscaled.png" 
+        height="92" width="264" src="/assets/images/pixel-art/QuestionAI.png" 
     title="Think for yourself. Question the AI." />
 </div>
 

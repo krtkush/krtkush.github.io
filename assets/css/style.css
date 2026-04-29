@@ -37,6 +37,8 @@
   & ul {
     margin-left: 0;
     padding-left: 0;
+    display: flex;
+    gap: 2em;
     & li {
       display: inline;
     }
@@ -140,9 +142,7 @@ body{
   background:var(--bg-color);
 }
 
-.post-header .post-share{font-weight: 600; color: var(--primary-font-color); display: flex; justify-content: flex-end; align-items: center;}
 .post-header .post-date{font-weight: 300;}
-.post-header .post-share a{display: flex;}
 
 .post-navigate-home {
   font-weight: 300;
@@ -270,12 +270,6 @@ body{
   margin-top: 50px;
 }
 
-.font-2{font-size: 2rem;}
-.font-1-5{font-size: 1.5rem;}
-.font-1-2{font-size: 1.2rem;}
-.font-0-8{font-size: .8rem;}
-
-.text-right{text-align: right;}
 .w-100{width: 100%!important;}
 
 a:hover{text-decoration: none;}
@@ -283,7 +277,6 @@ a{color: var(--primary-font-color); text-decoration: none;}
 img{max-width: 100%;}
 figure{margin:0; padding: 15px;}
 pre{font-size: 14px; max-width: 90vw; overflow: auto;}
-.social-icon{height: 24px;}
 
 hr {
   width: 100%;
@@ -310,9 +303,9 @@ q::before {
 }
 
 blockquote {
-  border-left: 4px solid #ccc;
+  border-left: 4px solid var(--border-color);
   padding-left: 1em;
-  color: #666;
+  color: var(--secondary-font-color);
   font-style: italic;
   margin: 1em 0;
 }
@@ -364,7 +357,7 @@ blockquote {
 }
 
 @media (min-width: 1200px){
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
+  .container {
     max-width: 700px;
   }
 }
@@ -381,7 +374,7 @@ blockquote {
 }
 
 @media (min-width: 1440px){
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
+  .container {
     max-width: 960px;
   }
 }
@@ -392,10 +385,8 @@ blockquote {
     left: 1px;
   }
   h1{font-size: 1.5rem;}
-  .profile-image{width: 96px; height: 96px;}
 }
 
-[data-theme="dark"] .social-icon{filter: invert(100%) sepia(50%) saturate(0%) hue-rotate(360deg) brightness(100%) contrast(100%);}
 .mode {margin-top: 30px; float: right;position: relative;width: 42px;height: 22px;background: #F1F2F4;border-radius: 20px;cursor: pointer;}
 .mode:after {content: "☀️";position: absolute;top: 0;left: 4px;font-size: 14px;height: 22px;line-height: 23px;text-align: center;transition: all 0.3s ease;}
 .mode.active {background: #0771ca;}
