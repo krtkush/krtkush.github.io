@@ -3,7 +3,7 @@ gem 'jekyll'
 gem 'jekyll-paginate'
 gem 'jekyll-sitemap'
 gem 'jekyll-relative-links'
-gem "tzinfo-data", "~> 1.2021"
+gem "tzinfo-data", "~> 1.2026"
 
 # windows specific
 gem 'wdm', '>= 0.1.0'
