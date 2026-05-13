@@ -34,10 +34,11 @@ losing weight or fixing health issues via medication is a lazy way out. They are
 medication is the last resort and anything less is cheating. They attach a heavy meaning to the process and believe in the
 moralization of effort. Their identity is challenged when they find that there is an easy way to get healthy.
 
-The former group of people is hard to reason with due to their scientific illiteracy or experiences which makes it difficult
-to trust doctors or medicines. The latter group, meanwhile, comes across as more accepting and rational but still
-does not encourage the use of such medicines. Their eyes are clouded by the idea of a perfect journey, often shaming 
-the consumers of these medicines. My beef is mostly with these people as I feel they are (culturally) gate-keeping health. 
+It is hard to reason with the former group of people due to their scientific illiteracy or experiences which makes it 
+difficult for them to trust doctors or medicines. 
+Meanwhile, the latter group comes across as more accepting and rational, they still do not encourage the use of such 
+medicines. Their eyes are clouded by the idea of a perfect journey, often shaming the consumers of semaglutides.
+My beef is mostly with this second group of people as I feel they are (culturally) gate-keeping health. 
 
 **People have to realize that there is an industrial scale effort to make people eat junk.** Corporates invest millions 
 of dollars to exploit human beings' most natural tendencies and instincts. They employ psychological exploitation via 
